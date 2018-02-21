@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/level-descriptor</content-type>	<display-template/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>750f</objectGroupId>
+	<objectId>750f18d6-ff73-72da-c9de-3edbe426e84c</objectId>
+	<file-name>crafter-level-descriptor.level.xml</file-name>
+	<folder-name/>
+	<createdDate>2017-10-9T16:52:48.000Z</createdDate>
+	<createdDate_dt>2017-10-9T16:52:48.000Z</createdDate_dt>
+	<lastModifiedDate>2018-02-19T20:14:14.976Z</lastModifiedDate>
+	<lastModifiedDate_dt>2018-02-19T20:14:14.976Z</lastModifiedDate_dt>
+	<siteName>PIZZA</siteName>
+	<social>	<item>	<socialOptions>fa-facebook</socialOptions>
+	<profileURL>https://www.facebook.com</profileURL>
+	</item>	<item>	<socialOptions>fa-twitter</socialOptions>
+	<profileURL>https://www.twitter.com</profileURL>
+	</item>	<item>	<socialOptions>fa-instagram</socialOptions>
+	<profileURL>https://instagram.com</profileURL>
+	</item>	<item>	<socialOptions>fa-pinterest</socialOptions>
+	<profileURL>https://pinterest.com</profileURL>
+	</item>	<item>	<socialOptions>fa-google</socialOptions>
+	<profileURL>https://plus.google.com</profileURL>
+	</item>	<item>	<socialOptions>fa-github</socialOptions>
+	<profileURL>https://github.com/</profileURL>
+	</item>	<item>	<socialOptions>fa-apple</socialOptions>
+	<profileURL>https://www.apple.com</profileURL>
+	</item></social>
+	<showFooter>true</showFooter>
+</component>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/gallery-component</content-type>	<display-template>/templates/web/components/GalleryComponent.ftl</display-template>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>eb9b</objectGroupId>
+	<objectId>eb9b3297-d17a-b962-4601-30da230329c2</objectId>
+	<file-name>gallery.xml</file-name>
+	<folder-name/>
+	<internal-name>gallery</internal-name>
+	<galleryTitle>Gallery</galleryTitle>
+	<gallery>	<item>	<imageTitle>Curabitur</imageTitle>
+	<imageDesc>Cras in ante mattis, elementum nunc sed.</imageDesc>
+	<image>/static-assets/images/gallery-img1.jpg</image>
+	</item>	<item>	<image>/static-assets/images/gallery-img2.jpg</image>
+	<imageTitle>Lorem ipsum</imageTitle>
+	<imageDesc>In ullamcorper gravida enim id pulvinar</imageDesc>
+	</item>	<item>	<image>/static-assets/images/gallery-img3.jpg</image>
+	<imageTitle>Pellentesque</imageTitle>
+	<imageDesc>Maecenas efficitur nisi id sapien</imageDesc>
+	</item>	<item>	<image>/static-assets/images/gallery-img4.jpg</image>
+	<imageTitle>Suspendisse</imageTitle>
+	<imageDesc>Mauris sit amet augue sit amet risus</imageDesc>
+	</item>	<item>	<image>/static-assets/images/gallery-img5.jpg</image>
+	<imageTitle>Elementum</imageTitle>
+	<imageDesc>Maecenas efficitur nisi id sapien</imageDesc>
+	</item>	<item>	<image>/static-assets/images/vegetables-italian-pizza-restaurant.jpg</image>
+	<imageTitle>Maecenas </imageTitle>
+	<imageDesc>Augue sit amet risus</imageDesc>
+	</item></gallery>
+	<createdDate>2018-02-14T22:50:59.747Z</createdDate>
+	<createdDate_dt>2018-02-14T22:50:59.747Z</createdDate_dt>
+	<lastModifiedDate>2018-02-19T15:25:55.765Z</lastModifiedDate>
+	<lastModifiedDate_dt>2018-02-19T15:25:55.765Z</lastModifiedDate_dt>
+</component>
