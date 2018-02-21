@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/contact-component</content-type>	<display-template>/templates/web/components/ContactComponent.ftl</display-template>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>2157</objectGroupId>
+	<objectId>215710f9-c485-829b-749a-a68cbaf91827</objectId>
+	<file-name>contact.xml</file-name>
+	<folder-name/>
+	<internal-name>contact</internal-name>
+	<contactUsPlaceholder>CONTACT US</contactUsPlaceholder>
+	<namePlaceholder>Your Name</namePlaceholder>
+	<emailPlaceholder>Your Email</emailPlaceholder>
+	<subjectPlaceholder>Your Subject</subjectPlaceholder>
+	<sendButton>Send</sendButton>
+	<latitude>9.9371452</latitude>
+	<longitude>-84.0930505</longitude>
+	<locationTitle>VISIT OUR SHOP</locationTitle>
+	<addressInfo>63 Another Walking Street, BKK 18080</addressInfo>
+	<phoneOne> 010-020-0340</phoneOne>
+	<phoneTwo>080-090-0660</phoneTwo>
+	<emailCompany>hello@company.com</emailCompany>
+	<scheduleTitle>OPENING HOURS</scheduleTitle>
+	<startHour>7:00 AM</startHour>
+	<finishHour>11:00 PM</finishHour>
+	<workdays>Monday to Friday and Sunday</workdays>
+	<messagePlaceholder>Your Message</messagePlaceholder>
+	<contactEmails>	<item>	<email>ruth.fernandez@rivetlogic.com</email>
+	</item>	<item>	<email>ruthfdezsoto@gmail.com</email>
+	</item></contactEmails>
+	<createdDate>2018-02-15T16:17:39.248Z</createdDate>
+	<createdDate_dt>2018-02-15T16:17:39.248Z</createdDate_dt>
+	<lastModifiedDate>2018-02-15T16:17:39.248Z</lastModifiedDate>
+	<lastModifiedDate_dt>2018-02-15T16:17:39.248Z</lastModifiedDate_dt>
+</component>
