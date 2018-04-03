@@ -35,12 +35,36 @@ function sendEmail(){
     });
    
 
+// preloader
+$(window).ready(function(){
+    $('.preloader').fadeOut(1000); // set duration in brackets    
+});
+
 $(document).ready(function() {
+
+	    // ------- WOW ANIMATED ------ //
+    wow = new WOW(
+        {
+            mobile: false
+        });
+    wow.init();
+    
+     // ------- JQUERY PARALLAX ---- //
+    function initParallax() {
+        $('#home').parallax("100%", 0.1);
+        $('#gallery').parallax("100%", 0.3);
+        $('#menu').parallax("100%", 0.2);
+        $('#team').parallax("100%", 0.3);
+        $('#contact').parallax("100%", 0.1);
+    }
+    initParallax();
+	
 	$('.flexslider').flexslider({
     	controlNav : false,
     	nextText : '',
     	prevText : '',
     }); 
+
 	//--------- Page Contact: Active the Alertify  -------
         
     $("#contact-form").submit(function(e){
@@ -51,3 +75,48 @@ $(document).ready(function() {
 	loadGoogleMap();  
 
 });
+
+$(function(){
+    var $gallery = $('.gallery a').simpleLightbox();
+
+    // $gallery.on('show.simplelightbox', function(){
+    //   console.log('Requested for showing');
+    // })
+    // .on('shown.simplelightbox', function(){
+    //   console.log('Shown');
+    // })
+    // .on('close.simplelightbox', function(){
+    //   console.log('Requested for closing');
+    // })
+    // .on('closed.simplelightbox', function(){
+    //   console.log('Closed');
+    // })
+    // .on('change.simplelightbox', function(){
+    //   console.log('Requested for change');
+    // })
+    // .on('next.simplelightbox', function(){
+    //   console.log('Requested for next');
+    // })
+    // .on('prev.simplelightbox', function(){
+    //   console.log('Requested for prev');
+    // })
+    // .on('nextImageLoaded.simplelightbox', function(){
+    //   console.log('Next image loaded');
+    // })
+    // .on('prevImageLoaded.simplelightbox', function(){
+    //   console.log('Prev image loaded');
+    // })
+    // .on('changed.simplelightbox', function(){
+    //   console.log('Image changed');
+    // })
+    // .on('nextDone.simplelightbox', function(){
+    //   console.log('Image changed to next');
+    // })
+    // .on('prevDone.simplelightbox', function(){
+    //   console.log('Image changed to prev');
+    // })
+    // .on('error.simplelightbox', function(e){
+    //   console.log('No image found, go to the next/prev');
+    //   console.log(e);
+    // });
+  });

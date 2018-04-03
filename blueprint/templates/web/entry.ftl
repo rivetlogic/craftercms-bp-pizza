@@ -16,16 +16,19 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-
-	<!-- bootstrap -->
-	<link rel="stylesheet" href="static-assets/css/bootstrap.min.css">
-	<!-- font-awesome -->
-	<link rel="stylesheet" href="static-assets/css/font-awesome.min.css">
 	<!-- normalize -->
     <link rel="stylesheet" href="static-assets/css/normalize.css">
+	<!-- bootstrap -->
+	<link rel="stylesheet" href="static-assets/css/bootstrap.min.css">
+    <!-- animate-->
+    <link rel="stylesheet" href="static-assets/css/animate.min.css">
+	<!-- font-awesome -->
+	<link rel="stylesheet" href="static-assets/css/font-awesome.min.css">
+	<!-- Simple lightbox-->
+	<link rel="stylesheet" href="static-assets/css/simplelightbox.min.css">
 	<!-- custom -->
 	<link rel="stylesheet" href="static-assets/css/templatemo-style.css">
-    <!-- -->
+    <!-- alertify -->
     <link rel="stylesheet" href="static-assets/css/alertify.min.css">
 	<!-- google font -->
 	<link href='//fonts.googleapis.com/css?family=Signika:400,300,600,700' rel='stylesheet' type='text/css'>
@@ -83,11 +86,14 @@
 		</footer>
 	<!-- end footer -->
 
-    <script src="/static-assets/js/jquery-3-3-1.min.js"></script>
+    <script src="/static-assets/js/jquery.js"></script>
     <script src="/static-assets/js/plugins.js"></script>
 	<script src="/static-assets/js/bootstrap.min.js"></script>
+    <script src="/static-assets/js/jquery.parallax.js"></script>
     <script src="/static-assets/js/alertify.min.js"></script>
     <script src="/static-assets/js/smoothscroll.js"></script>
+	<script src="/static-assets/js/wow.min.js"></script>
+	<script src="/static-assets/js/simple-lightbox.min.js"></script>
 	<script src="/static-assets/js/custom.js"></script>
 	<@studio.toolSupport/>	
 </body>
