@@ -8,20 +8,19 @@
 					<hr>
 				</div>
 			</div>
-			<div class="row">
-				<#list contentModel.gallery.item as img>
-                	<div class="col-xs-12 col-sm-4">
-						<div class="gallery-wrapper">
-							<img src="${img.image}" class="img-responsive gallery-img" alt="Pizza 1">
-                            <div class="gallery-des">
-                                <h3>${img.imageTitle}</h3>
-                                <h5>${img.imageDesc}</h5>
-                            </div>
-						</div>
-					</div>
-                </#list>
-			</div>
 		</div>
+    <div class="container">
+      <div class="gallery">
+       <#list contentModel.gallery.item as img>
+          <div class="gallery-wrapper">
+            <a href="${img.image}" class="big"><img src="${img.image}" class="gallery img" alt="Pizza 1"></a>
+              <div class="gallery-des">
+                  <h3>${img.imageTitle}</h3>
+                  <h5>${img.imageDesc}</h5>
+              </div>
+          </div>
+      </#list>
+      </div>
+    </div>
 	</section>
 <!-- end gallery -->
-

@@ -36,6 +36,8 @@ img
   height: auto;
 }
 
+
+
 @media (min-width: 768px) {
   .container {
     width: 700px;
@@ -425,38 +427,102 @@ html[xmlns] .slides {
 }
 /* end about */
 
-/* start gallery */
 
-.templatemo-light-gray-bg
+.clear {
+  clear: both;
+  float: none;
+  width: 100%;
+}
+
+.container .gallery a img {
+  float: left;
+  width: 100%;
+  height: 170px;
+  border: 2px solid #fff;
+  -webkit-transition: -webkit-transform .15s ease;
+  -moz-transition: -moz-transform .15s ease;
+  -o-transition: -o-transform .15s ease;
+  -ms-transition: -ms-transform .15s ease;
+  transition: transform .15s ease;
+  position: relative;
+}
+
+.container .gallery a.big img {
+  width: 100%;
+}
+
+.align-center {
+  text-align: center;
+}
+/*.templatemo-light-gray-bg
 {
   background: #f9f9f9;
-}
+}*/
+
 .gallery-wrapper
 {
+  width: 29%;
+  height: 200px;
   background: #ffffff;
   margin-top: 20px;
+  margin-right: 20px;
+  display: inline-table;
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
 }
-.gallery-wrapper:hover
+
+.gallery-wrapper:hover {
+  -webkit-transform: scale(1.05);
+  -moz-transform: scale(1.05);
+  -o-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
+  z-index: 5;
+}
+/*.gallery-wrapper:hover
 {
   -webkit-transform: scale(1.1);
   -ms-transform: scale(1.1);
   transform: scale(1.1);
-}
+}*/
 .gallery-des
 {
-  padding: 0 20px 14px 20px;
+	height: 82px;
+    padding-bottom: 12px;
+    float: left;
+    word-break: break-all;
 }
 
 .gallery-des h5{
   font-size: 14px;
 }
 
-.gallery-img {
-  margin: 0 auto;
+.gallery h3 {
+    min-height: 20px;
+    max-height: auto;
+    margin: 0;
+    font-size: 18px;
+    
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
+
+.sl-wrapper .sl-counter{
+  display: none !important;
+}
+
+/*#gallery img {
+    width: 100%;
+}*/
+
+/*.food-element-mid{
+	max-height: 538px;
+}*/
 /* end gallery */
+
 
 /* start contact */
 .map
@@ -586,9 +652,9 @@ IPAD PORTRAIT (768x1024)
 }
 @media only screen and (max-width: 768px) {
  .navbar-default .navbar-brand {
-  font-size: 35px;
-  padding-top: 10px;
-}  
+    font-size: 35px;
+    padding-top: 10px;
+  }  
 }
 /********************************
 IPHONE 4-4S-5 LANDSCAPE (568x320)
@@ -601,6 +667,15 @@ IPHONE 4-4S-5 LANDSCAPE (568x320)
     padding-top: 50px;
     padding-bottom: 50px;
   }
+  .gallery h3{
+    font-size: 28px;
+    margin-top: 10px;
+    max-height: auto !important;
+  }
+
+  .gallery h5{
+    font-size: 20px;
+  }
 }
 /********************************
 IPHONE 4-4S-5 PORTRAIT (320x568)
@@ -612,6 +687,23 @@ IPHONE 4-4S-5 PORTRAIT (320x568)
   .flexslider .slides img{
     	height: 250px;
     }
+  .gallery-wrapper{
+    width: 100%;
+    margin-right: 0;
+  }
+
+  .container .gallery a img{
+    height: auto;
+  }
+
+  .gallery-des{
+    width: 100%;
+    text-align: center;
+  }
+
+  .img-about { 
+    margin: 0 auto;
+  }
 }
 
 /********************************
@@ -636,7 +728,7 @@ DEVICES IPAD
   and (min-device-width: 768px) 
   and (max-device-width: 1024px) 
   and (-webkit-min-device-pixel-ratio: 1) {
-  	.flex-caption { top: 5%; }
+  .flex-caption { top: 5%; }
 	.flexslider .slides img{
     	height: 350px;
     }
@@ -651,10 +743,20 @@ DEVICES IPAD
     .slider-description{
     	font-size: 18px;
     }
+    .gallery-wrapper{
+      width: 30%;
+    }
     .gallery-des {
     	padding: 0 10px 14px 10px;
 	}
 }
+
+@media only screen 
+  and (min-device-width: 1024px) {
+    .gallery-wrapper{
+      margin-left: 5px;
+    }
+  }
 /********************************
 Media query for IE
 *********************************/
