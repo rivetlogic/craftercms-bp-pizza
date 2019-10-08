@@ -25,15 +25,15 @@
 				</div>
 				<div class="col-md-2"></div>
 				<div class="col-md-4 col-sm-4">
-					<h3 class="padding-bottom-10 text-uppercase">${contentModel.locationTitle}</h3>
-					<p><i class="fa fa-map-marker contact-fa"></i> ${contentModel.addressInfo}</p>
+					<h3 class="padding-bottom-10 text-uppercase">${contentModel.locationTitle_t}</h3>
+					<p><i class="fa fa-map-marker contact-fa"></i> ${contentModel.addressInfo_t}</p>
 					<p>
 						<i class="fa fa-phone contact-fa"></i>
-						<a href="tel:${contentModel.phoneOne}" class="contact-link">${contentModel.phoneOne}</a>, 
-						<a href="tel:${contentModel.phoneTwo}" class="contact-link">${contentModel.phoneTwo}</a>
+						<a href="tel:${contentModel.phoneOne_s}" class="contact-link">${contentModel.phoneOne_s}</a>, 
+						<a href="tel:${contentModel.phoneTwo_s}" class="contact-link">${contentModel.phoneTwo_s}</a>
 					</p>			
 					<p><i class="fa fa-envelope-o contact-fa"></i> 
-                    	<a href="mailto:${contentModel.emailCompany}" class="contact-link">${contentModel.emailCompany}</a></p>
+                    	<a href="mailto:${contentModel.emailCompany_s}" class="contact-link">${contentModel.emailCompany_s}</a></p>
 				</div>
 				<div class="col-md-4 col-sm-4">
 					<h3 class="text-uppercase">${contentModel.scheduleTitle}</h3>

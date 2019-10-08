@@ -526,7 +526,7 @@
          <fields>
             <field>
                <type>input</type>
-               <id>locationTitle</id>
+               <id>locationTitle_t</id>
                <iceId>visible</iceId>
                <title>Location Title</title>
                <description/>
@@ -569,7 +569,7 @@
             </field>
             <field>
                <type>input</type>
-               <id>addressInfo</id>
+               <id>addressInfo_t</id>
                <iceId>visible</iceId>
                <title>Address Information</title>
                <description/>
@@ -612,7 +612,7 @@
             </field>
             <field>
                <type>input</type>
-               <id>phoneOne</id>
+               <id>phoneOne_s</id>
                <iceId>visible</iceId>
                <title>Phone One</title>
                <description/>
@@ -655,7 +655,7 @@
             </field>
             <field>
                <type>input</type>
-               <id>phoneTwo</id>
+               <id>phoneTwo_s</id>
                <iceId>visible</iceId>
                <title>Phone Two</title>
                <description/>
@@ -698,7 +698,7 @@
             </field>
             <field>
                <type>input</type>
-               <id>emailCompany</id>
+               <id>emailCompany_s</id>
                <iceId>visible</iceId>
                <title>Email Company</title>
                <description/>

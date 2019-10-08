@@ -14,11 +14,11 @@
 	<sendButton_t>Send</sendButton_t>
 	<latitude_s>9.9371452</latitude_s>
 	<longitude_s>-84.0930505</longitude_s>
-	<locationTitle>VISIT OUR SHOP</locationTitle>
-	<addressInfo>63 Another Walking Street, BKK 18080</addressInfo>
-	<phoneOne> 010-020-0340</phoneOne>
-	<phoneTwo>080-090-0660</phoneTwo>
-	<emailCompany>hello@company.com</emailCompany>
+	<locationTitle_t>VISIT OUR SHOP</locationTitle_t>
+	<addressInfo_t>63 Another Walking Street, BKK 18080</addressInfo_t>
+	<phoneOne_s> 010-020-0340</phoneOne_s>
+	<phoneTwo_s>080-090-0660</phoneTwo_s>
+	<emailCompany_s>hello@company.com</emailCompany_s>
 	<scheduleTitle>OPENING HOURS</scheduleTitle>
 	<startHour>7:00 AM</startHour>
 	<finishHour>11:00 PM</finishHour>
