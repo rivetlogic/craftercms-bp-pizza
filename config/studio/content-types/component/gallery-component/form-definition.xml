@@ -207,7 +207,7 @@
                   </field>
                   <field>
                      <type>input</type>
-                     <id>imageTitle</id>
+                     <id>imageTitle_t</id>
                      <iceId>visible</iceId>
                      <title>Image Title</title>
                      <description/>
@@ -250,7 +250,7 @@
                   </field>
                   <field>
                      <type>input</type>
-                     <id>imageDesc</id>
+                     <id>imageDesc_t</id>
                      <iceId>visible</iceId>
                      <title>Image Description</title>
                      <description/>

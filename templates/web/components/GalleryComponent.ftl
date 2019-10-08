@@ -15,8 +15,8 @@
           <div class="gallery-wrapper">
             <a href="${img.image_s}" class="big"><img src="${img.image_s}" class="gallery img" alt="Pizza 1"></a>
               <div class="gallery-des">
-                  <h3>${img.imageTitle}</h3>
-                  <h5>${img.imageDesc}</h5>
+                  <h3>${img.imageTitle_t}</h3>
+                  <h5>${img.imageDesc_t}</h5>
               </div>
           </div>
       </#list>

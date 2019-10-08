@@ -8,21 +8,21 @@
 	<folder-name/>
 	<internal-name>gallery</internal-name>
 	<galleryTitle_t>Gallery</galleryTitle_t>
-	<gallery_o>	<item>	<imageTitle>Curabitur</imageTitle>
-	<imageDesc>Cras in ante mattis, elementum nunc sed.</imageDesc>
+	<gallery_o>	<item>	<imageTitle_t>Curabitur</imageTitle_t>
+	<imageDesc_t>Cras in ante mattis, elementum nunc sed.</imageDesc_t>
 	<image_s>/static-assets/images/gallery-img1.jpg</image_s>
 	</item>	<item>	<image_s>/static-assets/images/gallery-img2.jpg</image_s>
-	<imageTitle>Lorem ipsum</imageTitle>
-	<imageDesc>In ullamcorper gravida enim id pulvinar</imageDesc>
+	<imageTitle_t>Lorem ipsum</imageTitle_t>
+	<imageDesc_t>In ullamcorper gravida enim id pulvinar</imageDesc_t>
 	</item>	<item>	<image_s>/static-assets/images/gallery-img3.jpg</image_s>
-	<imageTitle>Pellentesque</imageTitle>
-	<imageDesc>Maecenas efficitur nisi id sapien</imageDesc>
+	<imageTitle_t>Pellentesque</imageTitle_t>
+	<imageDesc_t>Maecenas efficitur nisi id sapien</imageDesc_t>
 	</item>	<item>	<image_s>/static-assets/images/gallery-img4.jpg</image_s>
-	<imageTitle>Suspendisse</imageTitle>
-	<imageDesc>Mauris sit amet augue sit amet risus</imageDesc>
+	<imageTitle_t>Suspendisse</imageTitle_t>
+	<imageDesc_t>Mauris sit amet augue sit amet risus</imageDesc_t>
 	</item>	<item>	<image_s>/static-assets/images/gallery-img5.jpg</image_s>
-	<imageTitle>Elementum</imageTitle>
-	<imageDesc>Maecenas efficitur nisi id sapien</imageDesc>
+	<imageTitle_t>Elementum</imageTitle_t>
+	<imageDesc_t>Maecenas efficitur nisi id sapien</imageDesc_t>
 	</item></gallery_o>
 	<createdDate>2018-02-14T22:50:59.747Z</createdDate>
 	<createdDate_dt>2018-02-14T22:50:59.747Z</createdDate_dt>
