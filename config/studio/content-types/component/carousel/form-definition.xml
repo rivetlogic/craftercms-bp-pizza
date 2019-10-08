@@ -238,7 +238,7 @@
                   </field>
                   <field>
                      <type>image-picker</type>
-                     <id>sliderImage</id>
+                     <id>sliderImage_s</id>
                      <iceId>visible</iceId>
                      <title>Slider Image</title>
                      <description/>
