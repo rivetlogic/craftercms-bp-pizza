@@ -71,7 +71,7 @@
           <div class="container">
               <div class="row">
                   <div class="col-md-12">
-                  	<#if contentModel.showFooter == 'true'>
+                  	<#if contentModel.showFooter_b>
                       <p>Copyright &copy; 2084 ${contentModel.siteName_t}</p>
                       <hr>
                     </#if>
