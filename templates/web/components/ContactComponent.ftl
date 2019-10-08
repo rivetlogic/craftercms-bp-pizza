@@ -4,22 +4,22 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
-					<h2 class="text-uppercase text-center">${contentModel.contactUsPlaceholder}</h2>
+					<h2 class="text-uppercase text-center">${contentModel.contactUsPlaceholder_t}</h2>
 					<hr>
 				</div>
 				<div class="col-md-2"></div>
 				<div class="col-md-8">
 					<form id="contact-form" action="/doContact" method="post" role="form">
 						<div class="col-md-6 col-sm-6">
-							<input name="name" type="text" class="form-control" id="name" maxlength="60" placeholder="${contentModel.namePlaceholder}" required>
-					    	<input name="email" type="email" class="form-control" id="email" placeholder="${contentModel.emailPlaceholder}" required>
-							<input name="subject" type="text" class="form-control" id="subject" placeholder="${contentModel.subjectPlaceholder}" required>
+							<input name="name" type="text" class="form-control" id="name" maxlength="60" placeholder="${contentModel.namePlaceholder_t}" required>
+					    	<input name="email" type="email" class="form-control" id="email" placeholder="${contentModel.emailPlaceholder_t}" required>
+							<input name="subject" type="text" class="form-control" id="subject" placeholder="${contentModel.subjectPlaceholder_t}" required>
 						</div>
 						<div class="col-md-6 col-sm-6">
-							<textarea id="message" name="message" class="form-control" rows="5" placeholder="${contentModel.messagePlaceholder}" required></textarea>
+							<textarea id="message" name="message" class="form-control" rows="5" placeholder="${contentModel.messagePlaceholder_t}" required></textarea>
 						</div>
 						<div class="col-md-offset-3 col-md-6 col-sm-offset-3 col-sm-6">
-							<input id="form-submit" name="submit" type="submit" class="form-control" value="${contentModel.sendButton}">
+							<input id="form-submit" name="submit" type="submit" class="form-control" value="${contentModel.sendButton_t}">
 						</div>
 					</form>
 				</div>

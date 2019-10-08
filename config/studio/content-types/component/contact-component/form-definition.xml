@@ -95,7 +95,7 @@
          <fields>
             <field>
                <type>input</type>
-               <id>contactUsPlaceholder</id>
+               <id>contactUsPlaceholder_t</id>
                <iceId>visible</iceId>
                <title>Contact Us Placeholder</title>
                <description/>
@@ -138,7 +138,7 @@
             </field>
             <field>
                <type>input</type>
-               <id>namePlaceholder</id>
+               <id>namePlaceholder_t</id>
                <iceId>visible</iceId>
                <title>Name Placeholder</title>
                <description/>
@@ -181,7 +181,7 @@
             </field>
             <field>
                <type>input</type>
-               <id>emailPlaceholder</id>
+               <id>emailPlaceholder_t</id>
                <iceId>visible</iceId>
                <title>Email Placeholder</title>
                <description/>
@@ -224,7 +224,7 @@
             </field>
             <field>
                <type>input</type>
-               <id>subjectPlaceholder</id>
+               <id>subjectPlaceholder_t</id>
                <iceId>visible</iceId>
                <title>Subject Placeholder</title>
                <description/>
@@ -267,7 +267,7 @@
             </field>
             <field>
                <type>textarea</type>
-               <id>messagePlaceholder</id>
+               <id>messagePlaceholder_t</id>
                <iceId>visible</iceId>
                <title>Message Placeholder</title>
                <description/>
@@ -310,7 +310,7 @@
             </field>
             <field>
                <type>input</type>
-               <id>sendButton</id>
+               <id>sendButton_t</id>
                <iceId>visible</iceId>
                <title>Send Button</title>
                <description/>

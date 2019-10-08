@@ -7,11 +7,11 @@
 	<file-name>contact.xml</file-name>
 	<folder-name/>
 	<internal-name>contact</internal-name>
-	<contactUsPlaceholder>CONTACT US</contactUsPlaceholder>
-	<namePlaceholder>Your Name</namePlaceholder>
-	<emailPlaceholder>Your Email</emailPlaceholder>
-	<subjectPlaceholder>Your Subject</subjectPlaceholder>
-	<sendButton>Send</sendButton>
+	<contactUsPlaceholder_t>CONTACT US</contactUsPlaceholder_t>
+	<namePlaceholder_t>Your Name</namePlaceholder_t>
+	<emailPlaceholder_t>Your Email</emailPlaceholder_t>
+	<subjectPlaceholder_t>Your Subject</subjectPlaceholder_t>
+	<sendButton_t>Send</sendButton_t>
 	<latitude>9.9371452</latitude>
 	<longitude>-84.0930505</longitude>
 	<locationTitle>VISIT OUR SHOP</locationTitle>
@@ -23,7 +23,7 @@
 	<startHour>7:00 AM</startHour>
 	<finishHour>11:00 PM</finishHour>
 	<workdays>Monday to Friday and Sunday</workdays>
-	<messagePlaceholder>Your Message</messagePlaceholder>
+	<messagePlaceholder_t>Your Message</messagePlaceholder_t>
 	<contactEmails>	<item>	<email>ruth.fernandez@rivetlogic.com</email>
 	</item>	<item>	<email>ruthfdezsoto@gmail.com</email>
 	</item></contactEmails>
