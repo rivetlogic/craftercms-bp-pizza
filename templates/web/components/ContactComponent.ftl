@@ -36,9 +36,9 @@
                     	<a href="mailto:${contentModel.emailCompany_s}" class="contact-link">${contentModel.emailCompany_s}</a></p>
 				</div>
 				<div class="col-md-4 col-sm-4">
-					<h3 class="text-uppercase">${contentModel.scheduleTitle}</h3>
-					<p><i class="fa fa-clock-o contact-fa"></i>${contentModel.startHour} - ${contentModel.finishHour}</p>
-					<p><i class="fa fa-bell-o contact-fa"></i>${contentModel.workdays}</p>
+					<h3 class="text-uppercase">${contentModel.scheduleTitle_t}</h3>
+					<p><i class="fa fa-clock-o contact-fa"></i>${contentModel.startHour_s} - ${contentModel.finishHour_s}</p>
+					<p><i class="fa fa-bell-o contact-fa"></i>${contentModel.workdays_t}</p>
 			  	</div>
 				<div class="col-md-4 col-sm-4">
 					<div class="google_map">

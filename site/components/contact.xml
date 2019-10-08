@@ -19,10 +19,10 @@
 	<phoneOne_s> 010-020-0340</phoneOne_s>
 	<phoneTwo_s>080-090-0660</phoneTwo_s>
 	<emailCompany_s>hello@company.com</emailCompany_s>
-	<scheduleTitle>OPENING HOURS</scheduleTitle>
-	<startHour>7:00 AM</startHour>
-	<finishHour>11:00 PM</finishHour>
-	<workdays>Monday to Friday and Sunday</workdays>
+	<scheduleTitle_t>OPENING HOURS</scheduleTitle_t>
+	<startHour_s>7:00 AM</startHour_s>
+	<finishHour_s>11:00 PM</finishHour_s>
+	<workdays_t>Monday to Friday and Sunday</workdays_t>
 	<messagePlaceholder_t>Your Message</messagePlaceholder_t>
 	<contactEmails_o>	<item>	<email_s>an_email@mail.com</email_s>
 	</item>	<item>	<email_s>another_email@mail.com</email_s>

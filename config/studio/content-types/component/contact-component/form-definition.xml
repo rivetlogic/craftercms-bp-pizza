@@ -748,7 +748,7 @@
          <fields>
             <field>
                <type>input</type>
-               <id>scheduleTitle</id>
+               <id>scheduleTitle_t</id>
                <iceId>visible</iceId>
                <title>Schedule Title</title>
                <description/>
@@ -791,7 +791,7 @@
             </field>
             <field>
                <type>input</type>
-               <id>startHour</id>
+               <id>startHour_s</id>
                <iceId>visible</iceId>
                <title>Start Hour</title>
                <description/>
@@ -834,7 +834,7 @@
             </field>
             <field>
                <type>input</type>
-               <id>finishHour</id>
+               <id>finishHour_s</id>
                <iceId>visible</iceId>
                <title>Finish Hour</title>
                <description/>
@@ -877,7 +877,7 @@
             </field>
             <field>
                <type>input</type>
-               <id>workdays</id>
+               <id>workdays_t</id>
                <iceId>visible</iceId>
                <title> Workdays</title>
                <description/>
