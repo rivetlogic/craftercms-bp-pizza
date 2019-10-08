@@ -6,7 +6,7 @@
 	<objectId>8d0791f9-ace3-b149-03a7-2be7ec656079</objectId>
 	<file-name>about.xml</file-name>
 	<folder-name/>
-	<imageAbout>/static-assets/images/about-img1.jpg</imageAbout>
+	<imageAbout_s>/static-assets/images/about-img1.jpg</imageAbout_s>
 	<internal-name>about</internal-name>
 	<titleAbout_t>YOUR PIZZA SHOP</titleAbout_t>
 	<subtitle_t>ANOTHER BAKER</subtitle_t>

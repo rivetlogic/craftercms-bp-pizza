@@ -11,7 +11,7 @@
 					<p>${contentModel.description_html}</p>
 				</div>
 				<div class="col-md-6 col-sm-6">
-					<img src="${contentModel.imageAbout}" class="img-responsive img-bordered img-about" alt="about img">
+					<img src="${contentModel.imageAbout_s}" class="img-responsive img-bordered img-about" alt="about img">
 				</div>
 			</div>
 		</div>
