@@ -103,7 +103,7 @@
             </field>
             <field>
                <type>checkbox</type>
-               <id>showFooter</id>
+               <id>showFooter_b</id>
                <iceId>visible</iceId>
                <title>Show Footer</title>
                <description/>

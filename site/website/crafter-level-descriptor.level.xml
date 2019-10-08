@@ -26,5 +26,5 @@
 	</item>	<item>	<socialOptions>fa-apple</socialOptions>
 	<profileURL>https://www.apple.com</profileURL>
 	</item></social>
-	<showFooter>true</showFooter>
+	<showFooter_b>true</showFooter_b>
 </component>
