@@ -181,7 +181,7 @@
             </field>
             <field>
                <type>rte</type>
-               <id>description</id>
+               <id>description_html</id>
                <iceId>visible</iceId>
                <title>Description</title>
                <description/>
