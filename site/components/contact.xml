@@ -13,7 +13,7 @@
 	<subjectPlaceholder_t>Your Subject</subjectPlaceholder_t>
 	<sendButton_t>Send</sendButton_t>
 	<latitude_s>9.9371452</latitude_s>
-	<longitude>-84.0930505</longitude>
+	<longitude_s>-84.0930505</longitude_s>
 	<locationTitle>VISIT OUR SHOP</locationTitle>
 	<addressInfo>63 Another Walking Street, BKK 18080</addressInfo>
 	<phoneOne> 010-020-0340</phoneOne>
