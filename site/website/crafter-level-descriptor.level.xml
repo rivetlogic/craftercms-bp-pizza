@@ -11,7 +11,7 @@
 	<lastModifiedDate>2018-02-19T20:14:14.976Z</lastModifiedDate>
 	<lastModifiedDate_dt>2018-02-19T20:14:14.976Z</lastModifiedDate_dt>
 	<siteName_t>PIZZA</siteName_t>
-	<social>	<item>	<socialOptions>fa-facebook</socialOptions>
+	<social_o>	<item>	<socialOptions>fa-facebook</socialOptions>
 	<profileURL>https://www.facebook.com</profileURL>
 	</item>	<item>	<socialOptions>fa-twitter</socialOptions>
 	<profileURL>https://www.twitter.com</profileURL>
@@ -25,6 +25,6 @@
 	<profileURL>https://github.com/</profileURL>
 	</item>	<item>	<socialOptions>fa-apple</socialOptions>
 	<profileURL>https://www.apple.com</profileURL>
-	</item></social>
+	</item></social_o>
 	<showFooter_b>true</showFooter_b>
 </component>

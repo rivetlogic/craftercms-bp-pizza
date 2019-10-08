@@ -76,7 +76,7 @@
                       <hr>
                     </#if>
                       <ul class="social-icon">
-                          <#list contentModel.social.item as icon>
+                          <#list contentModel.social_o.item as icon>
 								<li><a href="${icon.profileURL}" target="_blank" class="fa ${icon.socialOptions}"></a></li>
                           </#list>
                       </ul>

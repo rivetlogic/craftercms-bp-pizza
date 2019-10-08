@@ -133,7 +133,7 @@
          <fields>
             <field>
                <type>repeat</type>
-               <id>social</id>
+               <id>social_o</id>
                <iceId>visible</iceId>
                <title>Social</title>
                <description/>
