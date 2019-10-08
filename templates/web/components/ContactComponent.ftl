@@ -58,7 +58,7 @@ var center;
 function initialize() {
     var mapOptions = {
       zoom: 16,
-      center: new google.maps.LatLng(${contentModel.latitude}, ${contentModel.longitude}),
+      center: new google.maps.LatLng(${contentModel.latitude_s}, ${contentModel.longitude}),
       scrollwheel: false
     };
   

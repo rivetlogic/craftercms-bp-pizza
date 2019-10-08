@@ -12,7 +12,7 @@
 	<emailPlaceholder_t>Your Email</emailPlaceholder_t>
 	<subjectPlaceholder_t>Your Subject</subjectPlaceholder_t>
 	<sendButton_t>Send</sendButton_t>
-	<latitude>9.9371452</latitude>
+	<latitude_s>9.9371452</latitude_s>
 	<longitude>-84.0930505</longitude>
 	<locationTitle>VISIT OUR SHOP</locationTitle>
 	<addressInfo>63 Another Walking Street, BKK 18080</addressInfo>
