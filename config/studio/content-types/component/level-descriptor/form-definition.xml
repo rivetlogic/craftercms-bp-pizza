@@ -154,7 +154,7 @@
                <fields>
                   <field>
                      <type>dropdown</type>
-                     <id>socialOptions</id>
+                     <id>socialOptions_s</id>
                      <iceId>visible</iceId>
                      <title>Social Options</title>
                      <description/>
@@ -187,7 +187,7 @@
                   </field>
                   <field>
                      <type>input</type>
-                     <id>profileURL</id>
+                     <id>profileURL_s</id>
                      <iceId>visible</iceId>
                      <title>Profile URL</title>
                      <description/>

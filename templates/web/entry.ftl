@@ -77,7 +77,7 @@
                     </#if>
                       <ul class="social-icon">
                           <#list contentModel.social_o.item as icon>
-								<li><a href="${icon.profileURL}" target="_blank" class="fa ${icon.socialOptions}"></a></li>
+								<li><a href="${icon.profileURL_s}" target="_blank" class="fa ${icon.socialOptions_s}"></a></li>
                           </#list>
                       </ul>
                   </div>
