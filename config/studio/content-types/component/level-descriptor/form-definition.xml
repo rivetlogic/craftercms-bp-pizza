@@ -134,7 +134,7 @@
             <field>
                <type>repeat</type>
                <id>social_o</id>
-               <iceId>visible</iceId>
+               <iceId>social</iceId>
                <title>Social</title>
                <description/>
                <minOccurs>0</minOccurs>
