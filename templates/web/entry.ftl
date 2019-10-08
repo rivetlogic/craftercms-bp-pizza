@@ -61,7 +61,7 @@
 	</div>
 	<!-- end navigation -->
 
-	<#list contentModel.childContent.item as module>
+	<#list contentModel.childContent_o.item as module>
 		<@renderComponent component=module />
 	</#list>
 

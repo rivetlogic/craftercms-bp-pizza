@@ -14,7 +14,7 @@
 	<lastModifiedDate>2018-02-16T18:13:05.074Z</lastModifiedDate>
 	<lastModifiedDate_dt>2018-02-16T18:13:05.074Z</lastModifiedDate_dt>
 	<disabled>false</disabled>
-	<childContent>	<item>	<key>/site/components/carousel.xml</key>
+	<childContent_o>	<item>	<key>/site/components/carousel.xml</key>
 	<value>carousel</value>
 	<include>/site/components/carousel.xml</include>
 	<disableFlattening>false</disableFlattening>
@@ -30,5 +30,5 @@
 	<value>contact</value>
 	<include>/site/components/contact.xml</include>
 	<disableFlattening>false</disableFlattening>
-	</item></childContent>
+	</item></childContent_o>
 </page>

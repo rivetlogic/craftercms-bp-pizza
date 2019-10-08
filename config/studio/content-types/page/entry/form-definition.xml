@@ -144,7 +144,7 @@
             </field>
             <field>
                <type>node-selector</type>
-               <id>childContent</id>
+               <id>childContent_o</id>
                <iceId/>
                <title>Components</title>
                <description/>
