@@ -159,7 +159,7 @@
                <fields>
                   <field>
                      <type>image-picker</type>
-                     <id>image</id>
+                     <id>image_s</id>
                      <iceId>visible</iceId>
                      <title>Image</title>
                      <description/>

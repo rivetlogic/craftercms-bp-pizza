@@ -10,17 +10,17 @@
 	<galleryTitle_t>Gallery</galleryTitle_t>
 	<gallery_o>	<item>	<imageTitle>Curabitur</imageTitle>
 	<imageDesc>Cras in ante mattis, elementum nunc sed.</imageDesc>
-	<image>/static-assets/images/gallery-img1.jpg</image>
-	</item>	<item>	<image>/static-assets/images/gallery-img2.jpg</image>
+	<image_s>/static-assets/images/gallery-img1.jpg</image_s>
+	</item>	<item>	<image_s>/static-assets/images/gallery-img2.jpg</image_s>
 	<imageTitle>Lorem ipsum</imageTitle>
 	<imageDesc>In ullamcorper gravida enim id pulvinar</imageDesc>
-	</item>	<item>	<image>/static-assets/images/gallery-img3.jpg</image>
+	</item>	<item>	<image_s>/static-assets/images/gallery-img3.jpg</image_s>
 	<imageTitle>Pellentesque</imageTitle>
 	<imageDesc>Maecenas efficitur nisi id sapien</imageDesc>
-	</item>	<item>	<image>/static-assets/images/gallery-img4.jpg</image>
+	</item>	<item>	<image_s>/static-assets/images/gallery-img4.jpg</image_s>
 	<imageTitle>Suspendisse</imageTitle>
 	<imageDesc>Mauris sit amet augue sit amet risus</imageDesc>
-	</item>	<item>	<image>/static-assets/images/gallery-img5.jpg</image>
+	</item>	<item>	<image_s>/static-assets/images/gallery-img5.jpg</image_s>
 	<imageTitle>Elementum</imageTitle>
 	<imageDesc>Maecenas efficitur nisi id sapien</imageDesc>
 	</item></gallery_o>
