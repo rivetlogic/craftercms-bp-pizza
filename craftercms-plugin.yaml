@@ -21,9 +21,15 @@ plugin:
     name: "Pizza"
   media:
     screenshots:
-      - title: Home Page
-        description: Screenshot of the home page
-        url: ""
+      - title: Home Section
+        description: Screenshot of the home section
+        url: "https://raw.githubusercontent.com/rivetlogic/craftercms-bp-pizza/master/static-assets/images/screenshots/bp_pizza_home.png"
+      - title: Gallery Section
+        description: Screenshot of the gallery section
+        url: "https://raw.githubusercontent.com/rivetlogic/craftercms-bp-pizza/master/static-assets/images/screenshots/bp_pizza_gallery.png"
+      - title: Contact Section
+        description: Screenshot of the contact section
+        url: "https://raw.githubusercontent.com/rivetlogic/craftercms-bp-pizza/master/static-assets/images/screenshots/bp_pizza_contact.png"
   developer:
     company:
       name: Rivet Logic
