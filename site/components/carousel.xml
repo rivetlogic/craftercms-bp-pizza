@@ -9,11 +9,11 @@
 	<internal-name>carousel</internal-name>
 	<carouselImages_o>	<item>	<sliderTitle_t>FRESHLY BAKED PIZZA</sliderTitle_t>
 	<sliderSubtitle_t>PREMIUM QUALITY, FINEST INGREDIENTS</sliderSubtitle_t>
-	<sliderDescription>Donec id euismod magna. Ut erat ligula, malesuada eu quam a, fringilla auctor augue. Praesent tincidunt neque semper elementum gravida.</sliderDescription>
+	<sliderDescription_t>Donec id euismod magna. Ut erat ligula, malesuada eu quam a, fringilla auctor augue. Praesent tincidunt neque semper elementum gravida.</sliderDescription_t>
 	<sliderImage>/static-assets/images/pexels-photo-723031.jpeg</sliderImage>
 	</item>	<item>	<sliderTitle_t>WE MAKE PIZZA</sliderTitle_t>
 	<sliderSubtitle_t>FRESH, CLEAN, AND DELICIOUS.</sliderSubtitle_t>
-	<sliderDescription>Praesent tincidunt neque semper elementum gravida. Donec id euismod magna. Ut erat ligula, malesuada eu quam a, fringilla auctor augue.</sliderDescription>
+	<sliderDescription_t>Praesent tincidunt neque semper elementum gravida. Donec id euismod magna. Ut erat ligula, malesuada eu quam a, fringilla auctor augue.</sliderDescription_t>
 	<sliderImage>/static-assets/images/slider-img1.jpg</sliderImage>
 	</item></carouselImages_o>
 	<createdDate>2018-02-13T17:50:49.762Z</createdDate>

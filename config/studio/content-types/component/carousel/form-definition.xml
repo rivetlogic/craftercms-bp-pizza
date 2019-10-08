@@ -195,7 +195,7 @@
                   </field>
                   <field>
                      <type>input</type>
-                     <id>sliderDescription</id>
+                     <id>sliderDescription_t</id>
                      <iceId>visible</iceId>
                      <title>Slider Description</title>
                      <description/>

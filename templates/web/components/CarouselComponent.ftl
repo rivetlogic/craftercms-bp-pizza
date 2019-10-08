@@ -8,7 +8,7 @@
                   <div class="flex-caption">
                       <h2 class="slider-title">${slider.sliderTitle_t}</h2>
                       <h3 class="slider-subtitle">${slider.sliderSubtitle_t}</h3>
-                      <p class="slider-description">${slider.sliderDescription}</p>
+                      <p class="slider-description">${slider.sliderDescription_t}</p>
                   </div>
 				</li>
             </#list>
