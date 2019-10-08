@@ -7,11 +7,11 @@
 	<file-name>carousel.xml</file-name>
 	<folder-name/>
 	<internal-name>carousel</internal-name>
-	<carouselImages_o>	<item>	<sliderTitle>FRESHLY BAKED PIZZA</sliderTitle>
+	<carouselImages_o>	<item>	<sliderTitle_t>FRESHLY BAKED PIZZA</sliderTitle_t>
 	<sliderSubtitle>PREMIUM QUALITY, FINEST INGREDIENTS</sliderSubtitle>
 	<sliderDescription>Donec id euismod magna. Ut erat ligula, malesuada eu quam a, fringilla auctor augue. Praesent tincidunt neque semper elementum gravida.</sliderDescription>
 	<sliderImage>/static-assets/images/pexels-photo-723031.jpeg</sliderImage>
-	</item>	<item>	<sliderTitle>WE MAKE PIZZA</sliderTitle>
+	</item>	<item>	<sliderTitle_t>WE MAKE PIZZA</sliderTitle_t>
 	<sliderSubtitle>FRESH, CLEAN, AND DELICIOUS.</sliderSubtitle>
 	<sliderDescription>Praesent tincidunt neque semper elementum gravida. Donec id euismod magna. Ut erat ligula, malesuada eu quam a, fringilla auctor augue.</sliderDescription>
 	<sliderImage>/static-assets/images/slider-img1.jpg</sliderImage>

@@ -6,7 +6,7 @@
             	<li <@studio.iceAttr iceGroup="visible" path=contentModel.storeUrl />>
                  	 <img src="${slider.sliderImage}" alt="image" class="img-carousel">
                   <div class="flex-caption">
-                      <h2 class="slider-title">${slider.sliderTitle}</h2>
+                      <h2 class="slider-title">${slider.sliderTitle_t}</h2>
                       <h3 class="slider-subtitle">${slider.sliderSubtitle}</h3>
                       <p class="slider-description">${slider.sliderDescription}</p>
                   </div>
