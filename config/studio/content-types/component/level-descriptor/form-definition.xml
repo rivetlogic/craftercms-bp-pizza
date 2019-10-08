@@ -60,7 +60,7 @@
             </field>
             <field>
                <type>input</type>
-               <id>siteName</id>
+               <id>siteName_t</id>
                <iceId>visible</iceId>
                <title>Site Name</title>
                <description/>

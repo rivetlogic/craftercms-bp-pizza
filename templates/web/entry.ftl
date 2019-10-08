@@ -46,7 +46,7 @@
 					<span class="icon icon-bar"></span>
 					<span class="icon icon-bar"></span>
 				</button>
-				<a href="/" class="navbar-brand smoothScroll"><strong>${contentModel.siteName}</strong></a>
+				<a href="/" class="navbar-brand smoothScroll"><strong>${contentModel.siteName_t}</strong></a>
 			</div>
             
 			<div class="collapse navbar-collapse">
@@ -72,7 +72,7 @@
               <div class="row">
                   <div class="col-md-12">
                   	<#if contentModel.showFooter == 'true'>
-                      <p>Copyright &copy; 2084 ${contentModel.siteName}</p>
+                      <p>Copyright &copy; 2084 ${contentModel.siteName_t}</p>
                       <hr>
                     </#if>
                       <ul class="social-icon">
