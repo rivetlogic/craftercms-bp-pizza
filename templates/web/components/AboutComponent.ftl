@@ -7,7 +7,7 @@
 					<h1 class="text-uppercase">${contentModel.titleAbout_t}</h1>
 				</div>
 				<div class="col-md-6 col-sm-6">					
-					<h3 class="text-uppercase padding-bottom-10">${contentModel.subtitle}</h3>
+					<h3 class="text-uppercase padding-bottom-10">${contentModel.subtitle_t}</h3>
 					<p>${contentModel.description}</p>
 				</div>
 				<div class="col-md-6 col-sm-6">

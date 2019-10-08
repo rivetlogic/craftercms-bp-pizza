@@ -138,7 +138,7 @@
             </field>
             <field>
                <type>input</type>
-               <id>subtitle</id>
+               <id>subtitle_t</id>
                <iceId>visible</iceId>
                <title>Subtitle </title>
                <description/>
