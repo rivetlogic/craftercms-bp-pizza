@@ -4,7 +4,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-					<h1 class="text-uppercase">${contentModel.titleAbout}</h1>
+					<h1 class="text-uppercase">${contentModel.titleAbout_t}</h1>
 				</div>
 				<div class="col-md-6 col-sm-6">					
 					<h3 class="text-uppercase padding-bottom-10">${contentModel.subtitle}</h3>
