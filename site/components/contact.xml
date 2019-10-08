@@ -24,9 +24,9 @@
 	<finishHour>11:00 PM</finishHour>
 	<workdays>Monday to Friday and Sunday</workdays>
 	<messagePlaceholder_t>Your Message</messagePlaceholder_t>
-	<contactEmails>	<item>	<email>ruth.fernandez@rivetlogic.com</email>
-	</item>	<item>	<email>ruthfdezsoto@gmail.com</email>
-	</item></contactEmails>
+	<contactEmails_o>	<item>	<email_s>an_email@mail.com</email_s>
+	</item>	<item>	<email_s>another_email@mail.com</email_s>
+	</item></contactEmails_o>
 	<createdDate>2018-02-15T16:17:39.248Z</createdDate>
 	<createdDate_dt>2018-02-15T16:17:39.248Z</createdDate_dt>
 	<lastModifiedDate>2018-02-15T16:17:39.248Z</lastModifiedDate>

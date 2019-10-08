@@ -360,7 +360,7 @@
          <fields>
             <field>
                <type>repeat</type>
-               <id>contactEmails</id>
+               <id>contactEmails_o</id>
                <iceId/>
                <title>Contact Emails</title>
                <description/>
@@ -381,7 +381,7 @@
                <fields>
                   <field>
                      <type>input</type>
-                     <id>email</id>
+                     <id>email_s</id>
                      <iceId/>
                      <title>Email</title>
                      <description/>
