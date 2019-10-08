@@ -152,7 +152,7 @@
                   </field>
                   <field>
                      <type>input</type>
-                     <id>sliderSubtitle</id>
+                     <id>sliderSubtitle_t</id>
                      <iceId>visible</iceId>
                      <title>Slider subtitle</title>
                      <description/>
