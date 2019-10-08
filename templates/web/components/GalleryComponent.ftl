@@ -11,7 +11,7 @@
 		</div>
     <div class="container">
       <div class="gallery">
-       <#list contentModel.gallery.item as img>
+       <#list contentModel.gallery_o.item as img>
           <div class="gallery-wrapper">
             <a href="${img.image}" class="big"><img src="${img.image}" class="gallery img" alt="Pizza 1"></a>
               <div class="gallery-des">
@@ -23,4 +23,4 @@
       </div>
     </div>
 	</section>
-<!-- end gallery -->
+<!-- end gallery_o -->

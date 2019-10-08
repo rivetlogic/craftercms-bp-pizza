@@ -8,7 +8,7 @@
 	<folder-name/>
 	<internal-name>gallery</internal-name>
 	<galleryTitle_t>Gallery</galleryTitle_t>
-	<gallery>	<item>	<imageTitle>Curabitur</imageTitle>
+	<gallery_o>	<item>	<imageTitle>Curabitur</imageTitle>
 	<imageDesc>Cras in ante mattis, elementum nunc sed.</imageDesc>
 	<image>/static-assets/images/gallery-img1.jpg</image>
 	</item>	<item>	<image>/static-assets/images/gallery-img2.jpg</image>
@@ -23,7 +23,7 @@
 	</item>	<item>	<image>/static-assets/images/gallery-img5.jpg</image>
 	<imageTitle>Elementum</imageTitle>
 	<imageDesc>Maecenas efficitur nisi id sapien</imageDesc>
-	</item></gallery>
+	</item></gallery_o>
 	<createdDate>2018-02-14T22:50:59.747Z</createdDate>
 	<createdDate_dt>2018-02-14T22:50:59.747Z</createdDate_dt>
 	<lastModifiedDate>2018-04-03T20:40:00.559Z</lastModifiedDate>
