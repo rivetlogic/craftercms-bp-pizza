@@ -7,7 +7,7 @@
 	<file-name>gallery.xml</file-name>
 	<folder-name/>
 	<internal-name>gallery</internal-name>
-	<galleryTitle>Gallery</galleryTitle>
+	<galleryTitle_t>Gallery</galleryTitle_t>
 	<gallery>	<item>	<imageTitle>Curabitur</imageTitle>
 	<imageDesc>Cras in ante mattis, elementum nunc sed.</imageDesc>
 	<image>/static-assets/images/gallery-img1.jpg</image>

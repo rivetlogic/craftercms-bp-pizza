@@ -4,7 +4,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
-					<h2 class="text-center text-uppercase">${contentModel.galleryTitle}</h2>
+					<h2 class="text-center text-uppercase">${contentModel.galleryTitle_t}</h2>
 					<hr>
 				</div>
 			</div>

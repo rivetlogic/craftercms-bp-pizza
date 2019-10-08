@@ -95,7 +95,7 @@
          <fields>
             <field>
                <type>input</type>
-               <id>galleryTitle</id>
+               <id>galleryTitle_t</id>
                <iceId>visible</iceId>
                <title>Gallery Title</title>
                <description/>
