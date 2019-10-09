@@ -19,6 +19,7 @@ plugin:
     "CrafterCMS BluePrint: Pizza"
   website:
     name: "Pizza"
+    url: https://github.com/rivetlogic/craftercms-bp-pizza.git
   media:
     screenshots:
       - title: Home Section
