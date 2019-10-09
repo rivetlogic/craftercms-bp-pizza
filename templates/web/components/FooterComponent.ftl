@@ -5,7 +5,7 @@
             <div class="col-md-12">
                 <p>${contentModel.copyrightNotice_t}</p>
                 <hr>
-                <ul class="social-icon" <@studio.iceAttr iceGroup="social"/>>
+                <ul class="social-icon" <@studio.iceAttr path=contentModel.storeUrl iceGroup="social"/>>
                 <#list contentModel.social_o.item as icon>
                     <li><a href="${icon.profileURL_s}" target="_blank" class="fa ${icon.socialOptions_s}"></a></li>
                 </#list>
