@@ -3,7 +3,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <p>Copyright &copy; 2084</p>
+                <p>${contentModel.copyrightNotice_t}</p>
                 <hr>
                 <ul class="social-icon" <@studio.iceAttr iceGroup="social"/>>
                 <#list contentModel.social_o.item as icon>
