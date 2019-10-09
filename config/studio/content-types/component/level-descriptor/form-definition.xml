@@ -1,195 +1,68 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <form>
-   <title>Section Defaults</title>
-   <description>Section Defaults provides inherited values to all children and sibling content items. To learn more about content inheritance see docs.craftercms.org topic "Content Inheritance"</description>
-   <objectType>component</objectType>
-   <content-type>/component/level-descriptor</content-type>
-   <imageThumbnail>undefined</imageThumbnail>
-   <properties>
-      <property>
-         <name>display-template</name>
-         <label>Display Template</label>
-         <value/>
-         <type>template</type>
-      </property>
-      <property>
-         <name>merge-strategy</name>
-         <label>Merge Strategy</label>
-         <value>inherit-levels</value>
-         <type>string</type>
-      </property>
-      <property>
-         <name>no-template-required</name>
-         <label>No Template Required</label>
-         <type>boolean</type>
-         <value/>
-      </property>
-   </properties>
-   <sections>
-      <section>
-         <title>Section Defaults Properties</title>
-         <description/>
-         <defaultOpen>true</defaultOpen>
-         <fields>
-            <field>
-               <type>file-name</type>
-               <id>file-name</id>
-               <iceId/>
-               <title>File Name</title>
-               <description/>
-               <defaultValue>crafter-level-descriptor.level</defaultValue>
-               <help/>
-               <properties>
-                  <property>
-                     <name>size</name>
-                     <value>100</value>
-                     <type>int</type>
-                  </property>
-                  <property>
-                     <name>maxlength</name>
-                     <value>50</value>
-                     <type>int</type>
-                  </property>
-                  <property>
-                     <name>readonly</name>
-                     <value>true</value>
-                     <type>boolean</type>
-                  </property>
-               </properties>
-               <constraints/>
-            </field>
-            <field>
-               <type>input</type>
-               <id>siteName_t</id>
-               <iceId>visible</iceId>
-               <title>Site Name</title>
-               <description/>
-               <defaultValue/>
-               <help/>
-               <properties>
-                  <property>
-                     <name>size</name>
-                     <value>50</value>
-                     <type>int</type>
-                  </property>
-                  <property>
-                     <name>maxlength</name>
-                     <value>50</value>
-                     <type>int</type>
-                  </property>
-                  <property>
-                     <name>readonly</name>
-                     <value/>
-                     <type>boolean</type>
-                  </property>
-                  <property>
-                     <name>tokenize</name>
-                     <value>false</value>
-                     <type>boolean</type>
-                  </property>
-               </properties>
-               <constraints>
-                  <constraint>
-                     <name>required</name>
-                     <value>true</value>
-                     <type>boolean</type>
-                  </constraint>
-                  <constraint>
-                     <name>pattern</name>
-                     <value/>
-                     <type>string</type>
-                  </constraint>
-               </constraints>
-            </field>
-            <field>
-               <type>checkbox</type>
-               <id>showFooter_b</id>
-               <iceId>visible</iceId>
-               <title>Show Footer</title>
-               <description/>
-               <defaultValue/>
-               <help/>
-               <properties>
-                  <property>
-                     <name>readonly</name>
-                     <value/>
-                     <type>boolean</type>
-                  </property>
-               </properties>
-               <constraints>
-                  <constraint>
-                     <name>required</name>
-                     <value/>
-                     <type>boolean</type>
-                  </constraint>
-               </constraints>
-            </field>
-         </fields>
-      </section>
-      <section>
-			<title>Footer Section</title>
+	<title>Section Defaults</title>
+	<description>Section Defaults provides inherited values to all children and sibling content items. To learn more about content inheritance see docs.craftercms.org topic &quot;Content Inheritance&quot;</description>
+	<objectType>component</objectType>
+	<content-type>/component/level-descriptor</content-type>
+	<imageThumbnail>undefined</imageThumbnail>
+	<quickCreate>false</quickCreate>
+	<quickCreatePath></quickCreatePath>
+	<properties>		<property>
+			<name>display-template</name>
+			<label>Display Template</label>
+			<value></value>
+			<type>template</type>
+		</property>
+		<property>
+			<name>merge-strategy</name>
+			<label>Merge Strategy</label>
+			<value>inherit-levels</value>
+			<type>string</type>
+		</property>
+		<property>
+			<name>no-template-required</name>
+			<label>No Template Required</label>
+			<value></value>
+			<type>boolean</type>
+		</property>
+	</properties>
+	<sections>		<section>
+			<title>Section Defaults Properties</title>
 			<description></description>
-			<defaultOpen>false</defaultOpen>
+			<defaultOpen>true</defaultOpen>
 			<fields>
 				<field>
-					<type>repeat</type>
-					<id>social</id>
-					<iceId>visible</iceId>
-					<title>Social</title>
+					<type>file-name</type>
+					<id>file-name</id>
+					<iceId></iceId>
+					<title>File Name</title>
 					<description></description>
-					<minOccurs>0</minOccurs>
-					<maxOccurs>*</maxOccurs>
-					<properties>
-						<property>
-							<name>minOccurs</name>
-							<value>0</value>
-							<type>string</type>
-						</property>
-						<property>
-							<name>maxOccurs</name>
-							<value>*</value>
-							<type>string</type>
-						</property>
-					</properties>
-					<fields>
-				<field>
-					<type>dropdown</type>
-					<id>socialOptions</id>
-					<iceId>visible</iceId>
-					<title>Social Options</title>
-					<description></description>
-					<defaultValue></defaultValue>
+					<defaultValue>crafter-level-descriptor.level</defaultValue>
 					<help></help>
 					<properties>
 						<property>
-							<name>datasource</name>
-							<value>icons</value>
-							<type>datasource:item</type>
+							<name>size</name>
+							<value>100</value>
+							<type>int</type>
 						</property>
 						<property>
-							<name>emptyvalue</name>
-							<value></value>
-							<type>boolean</type>
+							<name>maxlength</name>
+							<value>50</value>
+							<type>int</type>
 						</property>
 						<property>
 							<name>readonly</name>
-							<value></value>
+							<value>true</value>
 							<type>boolean</type>
 						</property>
 					</properties>
 					<constraints>
-						<constraint>
-							<name>required</name>
-							<value><![CDATA[true]]></value>
-							<type>boolean</type>
-						</constraint>
 					</constraints>
 				</field>
 				<field>
 					<type>input</type>
-					<id>profileURL</id>
+					<id>siteName_t</id>
 					<iceId>visible</iceId>
-					<title>Profile URL</title>
+					<title>Site Name</title>
 					<description></description>
 					<defaultValue></defaultValue>
 					<help></help>
@@ -228,34 +101,31 @@
 						</constraint>
 					</constraints>
 				</field>
-					</fields>
+				<field>
+					<type>checkbox</type>
+					<id>showFooter_b</id>
+					<iceId>visible</iceId>
+					<title>Show Footer</title>
+					<description></description>
+					<defaultValue></defaultValue>
+					<help></help>
+					<properties>
+						<property>
+							<name>readonly</name>
+							<value></value>
+							<type>boolean</type>
+						</property>
+					</properties>
+					<constraints>
+						<constraint>
+							<name>required</name>
+							<value><![CDATA[]]></value>
+							<type>boolean</type>
+						</constraint>
+					</constraints>
 				</field>
 			</fields>
 		</section>
-   </sections>
-   <datasources>
-      <datasource>
-         <type>key-value-list</type>
-         <id>icons</id>
-         <title>Icons</title>
-         <interface>item</interface>
-         <properties>
-            <property>
-               <name>dataType</name>
-               <value>[{"value":"value","label":"","selected":false},{"value":"value_s","label":"String","selected":true},{"value":"value_i","label":"Integer","selected":false},{"value":"value_f","label":"Float","selected":false},{"value":"value_dt","label":"Date","selected":false},{"value":"value_html","label":"HTML","selected":false}]</value>
-               <type>undefined</type>
-            </property>
-            <property>
-               <name>options</name>
-               <value>[{"key":"fa-facebook","value":"facebook"},{"key":"fa-twitter","value":"Twitter"},{"key":"fa-instagram","value":"Instagram"},{"key":"fa-pinterest","value":"Pinterest"},{"key":"fa-google","value":"Google+"},{"key":"fa-github","value":"GitHub"},{"key":"fa-apple","value":"Apple"}]</value>
-               <type>undefined</type>
-            </property>
-            <property>
-               <name>showkeys</name>
-               <value/>
-               <type>undefined</type>
-            </property>
-         </properties>
-      </datasource>
-   </datasources>
+	</sections>
+	<datasources>	</datasources>
 </form>
