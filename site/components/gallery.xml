@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/gallery-component</content-type>	<display-template>/templates/web/components/GalleryComponent.ftl</display-template>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>eb9b</objectGroupId>
+	<objectId>eb9b3297-d17a-b962-4601-30da230329c2</objectId>
+	<file-name>gallery.xml</file-name>
+	<folder-name/>
+	<internal-name>gallery</internal-name>
+	<galleryTitle_t>Gallery</galleryTitle_t>
+	<gallery_o>	<item>	<imageTitle_t>Curabitur</imageTitle_t>
+	<imageDesc_t>Cras in ante mattis, elementum nunc sed.</imageDesc_t>
+	<image_s>/static-assets/images/gallery-img1.jpg</image_s>
+	</item>	<item>	<image_s>/static-assets/images/gallery-img2.jpg</image_s>
+	<imageTitle_t>Lorem ipsum</imageTitle_t>
+	<imageDesc_t>In ullamcorper gravida enim id pulvinar</imageDesc_t>
+	</item>	<item>	<image_s>/static-assets/images/gallery-img3.jpg</image_s>
+	<imageTitle_t>Pellentesque</imageTitle_t>
+	<imageDesc_t>Maecenas efficitur nisi id sapien</imageDesc_t>
+	</item>	<item>	<image_s>/static-assets/images/gallery-img4.jpg</image_s>
+	<imageTitle_t>Suspendisse</imageTitle_t>
+	<imageDesc_t>Mauris sit amet augue sit amet risus</imageDesc_t>
+	</item>	<item>	<image_s>/static-assets/images/gallery-img5.jpg</image_s>
+	<imageTitle_t>Elementum</imageTitle_t>
+	<imageDesc_t>Maecenas efficitur nisi id sapien</imageDesc_t>
+	</item></gallery_o>
+	<createdDate>2018-02-14T22:50:59.747Z</createdDate>
+	<createdDate_dt>2018-02-14T22:50:59.747Z</createdDate_dt>
+	<lastModifiedDate>2018-04-03T20:40:00.559Z</lastModifiedDate>
+	<lastModifiedDate_dt>2018-04-03T20:40:00.559Z</lastModifiedDate_dt>
+</component>

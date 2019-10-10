@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/footer-component</content-type>
+	<display-template>/templates/web/components/FooterComponent.ftl</display-template>
+	<no-template-required>false</no-template-required>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>088d</objectGroupId>
+	<objectId>088d6cbd-3aa4-79c9-9aec-0617f626138a</objectId>
+	<file-name>footer.xml</file-name>
+	<folder-name/>
+	<internal-name>footer</internal-name>
+	<social_o item-list="true">	<item>	<profileURL_s>https://www.facebook.com</profileURL_s>
+	<socialOptions_s>fa-facebook</socialOptions_s>
+	</item>	<item>	<socialOptions_s>fa-twitter</socialOptions_s>
+	<profileURL_s>https://www.twitter.com</profileURL_s>
+	</item>	<item>	<socialOptions_s>fa-instagram</socialOptions_s>
+	<profileURL_s>https://www.instagram.com</profileURL_s>
+	</item>	<item>	<socialOptions_s>fa-pinterest</socialOptions_s>
+	<profileURL_s>https://www.pinterest.com</profileURL_s>
+	</item>	<item>	<socialOptions_s>fa-github</socialOptions_s>
+	<profileURL_s>https://www.github.com</profileURL_s>
+	</item>	<item>	<socialOptions_s>fa-apple</socialOptions_s>
+	<profileURL_s>https://www.apple.com</profileURL_s>
+	</item></social_o>
+	<createdDate>2019-10-09T15:55:43.471Z</createdDate>
+	<createdDate_dt>2019-10-09T15:55:43.471Z</createdDate_dt>
+	<lastModifiedDate>2019-10-09T16:21:10.121Z</lastModifiedDate>
+	<lastModifiedDate_dt>2019-10-09T16:21:10.121Z</lastModifiedDate_dt>
+	<copyrightNotice_t>Copyright &amp;copy; 2084</copyrightNotice_t>
+</component>

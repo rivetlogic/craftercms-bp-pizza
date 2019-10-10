@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/carousel</content-type>	<display-template>/templates/web/components/CarouselComponent.ftl</display-template>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>b8a3</objectGroupId>
+	<objectId>b8a35e00-1741-b515-7395-8fe3cc7d0db9</objectId>
+	<file-name>carousel.xml</file-name>
+	<folder-name/>
+	<internal-name>carousel</internal-name>
+	<carouselImages_o>	<item>	<sliderTitle_t>FRESHLY BAKED PIZZA</sliderTitle_t>
+	<sliderSubtitle_t>PREMIUM QUALITY, FINEST INGREDIENTS</sliderSubtitle_t>
+	<sliderDescription_t>Donec id euismod magna. Ut erat ligula, malesuada eu quam a, fringilla auctor augue. Praesent tincidunt neque semper elementum gravida.</sliderDescription_t>
+	<sliderImage_s>/static-assets/images/pexels-photo-723031.jpeg</sliderImage_s>
+	</item>	<item>	<sliderTitle_t>WE MAKE PIZZA</sliderTitle_t>
+	<sliderSubtitle_t>FRESH, CLEAN, AND DELICIOUS.</sliderSubtitle_t>
+	<sliderDescription_t>Praesent tincidunt neque semper elementum gravida. Donec id euismod magna. Ut erat ligula, malesuada eu quam a, fringilla auctor augue.</sliderDescription_t>
+	<sliderImage_s>/static-assets/images/slider-img1.jpg</sliderImage_s>
+	</item></carouselImages_o>
+	<createdDate>2018-02-13T17:50:49.762Z</createdDate>
+	<createdDate_dt>2018-02-13T17:50:49.762Z</createdDate_dt>
+	<lastModifiedDate>2018-02-15T20:09:42.109Z</lastModifiedDate>
+	<lastModifiedDate_dt>2018-02-15T20:09:42.109Z</lastModifiedDate_dt>
+</component>

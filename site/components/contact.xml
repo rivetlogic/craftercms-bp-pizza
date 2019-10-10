@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/contact-component</content-type>	<display-template>/templates/web/components/ContactComponent.ftl</display-template>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>2157</objectGroupId>
+	<objectId>215710f9-c485-829b-749a-a68cbaf91827</objectId>
+	<file-name>contact.xml</file-name>
+	<folder-name/>
+	<internal-name>contact</internal-name>
+	<contactUsPlaceholder_t>CONTACT US</contactUsPlaceholder_t>
+	<namePlaceholder_t>Your Name</namePlaceholder_t>
+	<emailPlaceholder_t>Your Email</emailPlaceholder_t>
+	<subjectPlaceholder_t>Your Subject</subjectPlaceholder_t>
+	<sendButton_t>Send</sendButton_t>
+	<latitude_s>9.9371452</latitude_s>
+	<longitude_s>-84.0930505</longitude_s>
+	<locationTitle_t>VISIT OUR SHOP</locationTitle_t>
+	<addressInfo_t>63 Another Walking Street, BKK 18080</addressInfo_t>
+	<phoneOne_s> 010-020-0340</phoneOne_s>
+	<phoneTwo_s>080-090-0660</phoneTwo_s>
+	<emailCompany_s>hello@company.com</emailCompany_s>
+	<scheduleTitle_t>OPENING HOURS</scheduleTitle_t>
+	<startHour_s>7:00 AM</startHour_s>
+	<finishHour_s>11:00 PM</finishHour_s>
+	<workdays_t>Monday to Friday and Sunday</workdays_t>
+	<messagePlaceholder_t>Your Message</messagePlaceholder_t>
+	<contactEmails_o>	<item>	<email_s>an_email@mail.com</email_s>
+	</item>	<item>	<email_s>another_email@mail.com</email_s>
+	</item></contactEmails_o>
+	<createdDate>2018-02-15T16:17:39.248Z</createdDate>
+	<createdDate_dt>2018-02-15T16:17:39.248Z</createdDate_dt>
+	<lastModifiedDate>2018-02-15T16:17:39.248Z</lastModifiedDate>
+	<lastModifiedDate_dt>2018-02-15T16:17:39.248Z</lastModifiedDate_dt>
+</component>
