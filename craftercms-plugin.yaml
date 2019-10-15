@@ -7,18 +7,18 @@ descriptorVersion: 2
 plugin:
   type: blueprint
   id: com.rivetlogic.craftercms.blueprint.pizza
-  name: "Pizza Shop"
+  name: Pizza Shop
   tags:
     - blueprint
     - pizza
   version:
     major: 1
     minor: 0
-    patch: 0
+    patch: 1
   description: |
-    "Pizza Shop!"
+    Pizza Shop!
   website:
-    name: "Pizza Shop"
+    name: Pizza Shop
     url: https://github.com/rivetlogic/craftercms-bp-pizza.git
   media:
     screenshots:
