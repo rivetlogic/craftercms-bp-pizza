@@ -1,6 +1,6 @@
 <#import "/templates/system/common/cstudio-support.ftl" as studio />
 <!-- start about -->
-	<section id="about" class="templatemo-section templatemo-top-130" <@studio.iceAttr iceGroup="visible" path=contentModel.storeUrl />>
+	<section id="about" class="templatemo-section templatemo-top-130" <@studio.iceAttr iceGroup="visible" component=contentModel />>
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">

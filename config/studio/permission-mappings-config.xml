@@ -60,7 +60,7 @@
 
 -->
 <permissions>
-   <version>9</version>
+   <version>11</version>
    <role name="author">
       <rule regex="/site/website/.*">
          <allowed-permissions>
@@ -119,6 +119,8 @@
             <permission>search_cmis</permission>
             <permission>clone_content_cmis</permission>
             <permission>upload_content_cmis</permission>
+            <permission>get_publishing_queue</permission>
+            <permission>cancel_publish</permission>
          </allowed-permissions>
       </rule>
       <rule regex="^/site/(?!website/index\.xml)(.*)">
@@ -140,11 +142,15 @@
             <permission>clone_content_cmis</permission>
             <permission>upload_content_cmis</permission>
             <permission>delete_content</permission>
+            <permission>get_publishing_queue</permission>
+            <permission>cancel_publish</permission>
          </allowed-permissions>
       </rule>
       <rule regex="~DASHBOARD~">
          <allowed-permissions>
             <permission>Publish</permission>
+            <permission>get_publishing_queue</permission>
+            <permission>cancel_publish</permission>
          </allowed-permissions>
       </rule>
       <rule regex=".*">
@@ -170,6 +176,19 @@
             <permission>clone_content_cmis</permission>
             <permission>upload_content_cmis</permission>
             <permission>write_configuration</permission>
+            <permission>get_publishing_queue</permission>
+            <permission>cancel_publish</permission>
+            <permission>add_remote</permission>
+            <permission>list_remotes</permission>
+            <permission>pull_from_remote</permission>
+            <permission>push_to_remote</permission>
+            <permission>rebuild_database</permission>
+            <permission>remove_remote</permission>
+            <permission>site_status</permission>
+            <permission>resolve_conflict</permission>
+            <permission>site_diff_conflicted_file</permission>
+            <permission>commit_resolution</permission>
+            <permission>cancel_failed_pull</permission>
          </allowed-permissions>
       </rule>
       <rule regex="^/(?!site/website/index\.xml)(.*)">
@@ -182,6 +201,19 @@
          <allowed-permissions>
             <permission>Publish</permission>
             <permission>write_configuration</permission>
+            <permission>get_publishing_queue</permission>
+            <permission>cancel_publish</permission>
+            <permission>add_remote</permission>
+            <permission>list_remotes</permission>
+            <permission>pull_from_remote</permission>
+            <permission>push_to_remote</permission>
+            <permission>rebuild_database</permission>
+            <permission>remove_remote</permission>
+            <permission>site_status</permission>
+            <permission>resolve_conflict</permission>
+            <permission>site_diff_conflicted_file</permission>
+            <permission>commit_resolution</permission>
+            <permission>cancel_failed_pull</permission>
          </allowed-permissions>
       </rule>
       <rule regex=".*">
@@ -218,6 +250,8 @@
             <permission>site_diff_conflicted_file</permission>
             <permission>commit_resolution</permission>
             <permission>cancel_failed_pull</permission>
+            <permission>get_publishing_queue</permission>
+            <permission>cancel_publish</permission>
          </allowed-permissions>
       </rule>
       <rule regex="^/(?!site/website/index\.xml)(.*)">
@@ -241,6 +275,8 @@
             <permission>site_diff_conflicted_file</permission>
             <permission>commit_resolution</permission>
             <permission>cancel_failed_pull</permission>
+            <permission>get_publishing_queue</permission>
+            <permission>cancel_publish</permission>
          </allowed-permissions>
       </rule>
       <rule regex=".*">
@@ -257,11 +293,15 @@
          <allowed-permissions>
             <permission>Read</permission>
             <permission>Publish</permission>
+            <permission>get_publishing_queue</permission>
+            <permission>cancel_publish</permission>
          </allowed-permissions>
       </rule>
       <rule regex="~DASHBOARD~">
          <allowed-permissions>
             <permission>Publish</permission>
+            <permission>get_publishing_queue</permission>
+            <permission>cancel_publish</permission>
          </allowed-permissions>
       </rule>
       <rule regex=".*">
