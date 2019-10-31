@@ -1,5 +1,5 @@
 <content-type name="/component/footer-component" is-wcm-type="true">
-	<label>footer-component</label>
+	<label>Component - Footer</label>
 	<form>/component/footer-component</form>
 	<form-path>simple</form-path>
 	<model-instance-path>NOT-USED-BY-SIMPLE-FORM-ENGINE</model-instance-path>

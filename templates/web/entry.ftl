@@ -61,8 +61,8 @@
 	</div>
 	<!-- end navigation -->
 
-	<#list contentModel.childContent_o.item as module>
-		<@renderComponent component=module />
+	<#list contentModel.sections_o.item as section>
+		<@renderComponent parent=contentModel component=section />
 	</#list>
 
     <script src="/static-assets/js/jquery.js"></script>

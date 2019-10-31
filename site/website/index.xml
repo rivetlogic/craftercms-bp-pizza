@@ -13,28 +13,150 @@
 	<folder-name/>
 	<createdDate>2017-1-31T16:18:14.000Z</createdDate>
 	<createdDate_dt>2017-1-31T16:18:14.000Z</createdDate_dt>
-	<lastModifiedDate>2019-10-09T15:57:51.447Z</lastModifiedDate>
-	<lastModifiedDate_dt>2019-10-09T15:57:51.447Z</lastModifiedDate_dt>
+	<lastModifiedDate>2019-10-30T23:11:12.215Z</lastModifiedDate>
+	<lastModifiedDate_dt>2019-10-30T23:11:12.215Z</lastModifiedDate_dt>
 	<disabled>false</disabled>
-	<childContent_o item-list="true">	<item>	<key>/site/components/carousel.xml</key>
-	<value>carousel</value>
-	<include>/site/components/carousel.xml</include>
-	<disableFlattening>false</disableFlattening>
-	</item>	<item>	<key>/site/components/about.xml</key>
-	<value>about</value>
-	<include>/site/components/about.xml</include>
-	<disableFlattening>false</disableFlattening>
-	</item>	<item>	<key>/site/components/gallery.xml</key>
-	<value>gallery</value>
-	<include>/site/components/gallery.xml</include>
-	<disableFlattening>false</disableFlattening>
-	</item>	<item>	<key>/site/components/contact.xml</key>
-	<value>contact</value>
-	<include>/site/components/contact.xml</include>
-	<disableFlattening>false</disableFlattening>
-	</item>	<item datasource="childContentSource">	<key>/site/components/footer.xml</key>
-	<value>footer</value>
-	<include>/site/components/footer.xml</include>
-	<disableFlattening>false</disableFlattening>
-	</item></childContent_o>
+	<sections_o item-list="true">	<item datasource="sections" inline="true">	<key>d84532aa-2ba0-b2b3-f062-6179625ead67</key>
+	<value>Carousel</value>
+<component id="d84532aa-2ba0-b2b3-f062-6179625ead67">
+	<content-type>/component/carousel</content-type>
+	<display-template>/templates/web/components/CarouselComponent.ftl</display-template>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<no-template-required/>
+	<objectGroupId>d845</objectGroupId>
+	<objectId>d84532aa-2ba0-b2b3-f062-6179625ead67</objectId>
+	<file-name>d84532aa-2ba0-b2b3-f062-6179625ead67.xml</file-name>
+	<internal-name>Carousel</internal-name>
+	<carouselImages_o item-list="true">	<item>	<sliderTitle_t>FRESHLY BAKED PIZZA</sliderTitle_t>
+	<sliderSubtitle_t>PREMIUM QUALITY, FINEST INGREDIENTS</sliderSubtitle_t>
+	<sliderDescription_t>Donec id euismod magna. Ut erat ligula, malesuada eu quam a, fringilla auctor augue. Praesent tincidunt neque semper elementum gravida.</sliderDescription_t>
+	<sliderImage_s>/static-assets/images/pexels-photo-723031.jpeg</sliderImage_s>
+	</item>	<item>	<sliderTitle_t>WE MAKE PIZZA</sliderTitle_t>
+	<sliderSubtitle_t>FRESH, CLEAN, AND DELICIOUS.</sliderSubtitle_t>
+	<sliderDescription_t>Praesent tincidunt neque semper elementum gravida. Donec id euismod magna. Ut erat ligula, malesuada eu quam a, fringilla auctor augue.</sliderDescription_t>
+	<sliderImage_s>/static-assets/images/slider-img1.jpg</sliderImage_s>
+	</item></carouselImages_o>
+	<createdDate>2019-10-30T22:59:33.522Z</createdDate>
+	<createdDate_dt>2019-10-30T22:59:33.522Z</createdDate_dt>
+	<lastModifiedDate>2019-10-30T22:59:33.522Z</lastModifiedDate>
+	<lastModifiedDate_dt>2019-10-30T22:59:33.522Z</lastModifiedDate_dt>
+</component>
+	</item>	<item datasource="sections" inline="true">	<key>1fda781b-007f-2c71-c893-b339c923d248</key>
+	<value>About</value>
+<component id="1fda781b-007f-2c71-c893-b339c923d248">
+	<content-type>/component/about-component</content-type>
+	<display-template>/templates/web/components/AboutComponent.ftl</display-template>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<no-template-required/>
+	<objectGroupId>1fda</objectGroupId>
+	<objectId>1fda781b-007f-2c71-c893-b339c923d248</objectId>
+	<file-name>1fda781b-007f-2c71-c893-b339c923d248.xml</file-name>
+	<internal-name>About</internal-name>
+	<titleAbout_t>YOUR PIZZA SHOP</titleAbout_t>
+	<subtitle_t>ANOTHER BAKER</subtitle_t>
+	<imageAbout_s>/static-assets/images/about-img1.jpg</imageAbout_s>
+	<description_html>&lt;p&gt;Pizza responsive web template is provided by&amp;nbsp;&lt;a href="http://www.templatemo.com/" target="_parent" rel="nofollow"&gt;templatemo&lt;/a&gt;&amp;nbsp;website. Feel free to download, adapt, and use this template for your websites. Credit goes to&amp;nbsp;&lt;a href="http://pixabay.com/" target="_parent" rel="nofollow"&gt;Pixabay&lt;/a&gt;&amp;nbsp;for images used in this template.&lt;/p&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet. Dolore magna aliquam erat volutpat.&lt;/p&gt;
+&lt;p&gt;Proin enim sem, ultricies sit amet convallis nec, sodales quis augue. Duis consequat felis ac justo luctus, a cursus tellus pharetra. In ullamcorper gravida enim id pulvinar.&lt;/p&gt;</description_html>
+	<createdDate>2019-10-30T22:56:42.761Z</createdDate>
+	<createdDate_dt>2019-10-30T22:56:42.761Z</createdDate_dt>
+	<lastModifiedDate>2019-10-30T22:56:42.761Z</lastModifiedDate>
+	<lastModifiedDate_dt>2019-10-30T22:56:42.761Z</lastModifiedDate_dt>
+</component>
+	</item>	<item datasource="sections" inline="true">	<key>c719f016-8f51-91db-a47a-ba11761d522c</key>
+	<value>Gallery</value>
+<component id="c719f016-8f51-91db-a47a-ba11761d522c">
+	<content-type>/component/gallery-component</content-type>
+	<display-template>/templates/web/components/GalleryComponent.ftl</display-template>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<no-template-required/>
+	<objectGroupId>c719</objectGroupId>
+	<objectId>c719f016-8f51-91db-a47a-ba11761d522c</objectId>
+	<file-name>c719f016-8f51-91db-a47a-ba11761d522c.xml</file-name>
+	<internal-name>Gallery</internal-name>
+	<galleryTitle_t>Gallery</galleryTitle_t>
+	<gallery_o item-list="true">	<item>	<imageTitle_t>Curabitur</imageTitle_t>
+	<imageDesc_t>Cras in ante mattis, elementum nunc sed.</imageDesc_t>
+	<image_s>/static-assets/images/gallery-img1.jpg</image_s>
+	</item>	<item>	<image_s>/static-assets/images/gallery-img2.jpg</image_s>
+	<imageTitle_t>Lorem ipsum</imageTitle_t>
+	<imageDesc_t>In ullamcorper gravida enim id pulvinar</imageDesc_t>
+	</item>	<item>	<image_s>/static-assets/images/gallery-img3.jpg</image_s>
+	<imageTitle_t>Pellentesque</imageTitle_t>
+	<imageDesc_t>Maecenas efficitur nisi id sapien</imageDesc_t>
+	</item>	<item>	<image_s>/static-assets/images/gallery-img4.jpg</image_s>
+	<imageTitle_t>Suspendisse</imageTitle_t>
+	<imageDesc_t>Mauris sit amet augue sit amet risus</imageDesc_t>
+	</item>	<item>	<image_s>/static-assets/images/gallery-img5.jpg</image_s>
+	<imageTitle_t>Elementum</imageTitle_t>
+	<imageDesc_t>Maecenas efficitur nisi id sapien</imageDesc_t>
+	</item></gallery_o>
+	<createdDate>2019-10-30T23:01:22.029Z</createdDate>
+	<createdDate_dt>2019-10-30T23:01:22.029Z</createdDate_dt>
+	<lastModifiedDate>2019-10-30T23:01:22.029Z</lastModifiedDate>
+	<lastModifiedDate_dt>2019-10-30T23:01:22.029Z</lastModifiedDate_dt>
+</component>
+	</item>	<item datasource="sections" inline="true">	<key>1a4bb882-6603-d4de-56a9-6013f4ee0a46</key>
+	<value>Contact</value>
+<component id="1a4bb882-6603-d4de-56a9-6013f4ee0a46">
+	<content-type>/component/contact-component</content-type>
+	<display-template>/templates/web/components/ContactComponent.ftl</display-template>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<no-template-required/>
+	<objectGroupId>1a4b</objectGroupId>
+	<objectId>1a4bb882-6603-d4de-56a9-6013f4ee0a46</objectId>
+	<file-name>1a4bb882-6603-d4de-56a9-6013f4ee0a46.xml</file-name>
+	<internal-name>Contact</internal-name>
+	<contactUsPlaceholder_t>CONTACT US</contactUsPlaceholder_t>
+	<namePlaceholder_t>Your Name</namePlaceholder_t>
+	<emailPlaceholder_t>Your Email</emailPlaceholder_t>
+	<subjectPlaceholder_t>Your Subject</subjectPlaceholder_t>
+	<sendButton_t>Send</sendButton_t>
+	<latitude_s>9.9371452</latitude_s>
+	<longitude_s>-84.0952392</longitude_s>
+	<locationTitle_t>VISIT OUR SHOP</locationTitle_t>
+	<addressInfo_t>63 Another Walking Street, BKK 18080</addressInfo_t>
+	<phoneOne_s> 010-020-0340</phoneOne_s>
+	<phoneTwo_s>080-090-0660</phoneTwo_s>
+	<emailCompany_s>hello@company.com</emailCompany_s>
+	<scheduleTitle_t>OPENING HOURS</scheduleTitle_t>
+	<startHour_s>7:00 AM</startHour_s>
+	<finishHour_s>11:00 PM</finishHour_s>
+	<workdays_t>Monday to Friday and Sunday</workdays_t>
+	<messagePlaceholder_t>Your Message</messagePlaceholder_t>
+	<contactEmails_o item-list="true">	<item>	<email_s>an_email@mail.com</email_s>
+	</item>	<item>	<email_s>another_email@mail.com</email_s>
+	</item></contactEmails_o>
+	<createdDate>2019-10-30T23:03:48.978Z</createdDate>
+	<createdDate_dt>2019-10-30T23:03:48.978Z</createdDate_dt>
+	<lastModifiedDate>2019-10-30T23:03:48.978Z</lastModifiedDate>
+	<lastModifiedDate_dt>2019-10-30T23:03:48.978Z</lastModifiedDate_dt>
+</component>
+	</item>	<item datasource="sections" inline="true">	<key>680d736e-1714-3c90-ec09-4756c5d1f0b1</key>
+	<value>Footer</value>
+<component id="680d736e-1714-3c90-ec09-4756c5d1f0b1">
+	<content-type>/component/footer-component</content-type>
+	<display-template>/templates/web/components/FooterComponent.ftl</display-template>
+	<no-template-required>false</no-template-required>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>680d</objectGroupId>
+	<objectId>680d736e-1714-3c90-ec09-4756c5d1f0b1</objectId>
+	<internal-name>Footer</internal-name>
+	<copyrightNotice_t>Copyright &amp;copy; 2084</copyrightNotice_t>
+	<file-name>680d736e-1714-3c90-ec09-4756c5d1f0b1.xml</file-name>
+	<social_o item-list="true">	<item>	<profileURL_s>#</profileURL_s>
+	<socialOptions_s>fa-facebook</socialOptions_s>
+	</item>	<item>	<socialOptions_s>fa-twitter</socialOptions_s>
+	<profileURL_s>#</profileURL_s>
+	</item>	<item>	<socialOptions_s>fa-instagram</socialOptions_s>
+	<profileURL_s>#</profileURL_s>
+	</item>	<item>	<socialOptions_s>fa-pinterest</socialOptions_s>
+	<profileURL_s>#</profileURL_s>
+	</item></social_o>
+	<createdDate>2019-10-30T23:11:22.990Z</createdDate>
+	<createdDate_dt>2019-10-30T23:11:22.990Z</createdDate_dt>
+	<lastModifiedDate>2019-10-30T23:11:22.990Z</lastModifiedDate>
+	<lastModifiedDate_dt>2019-10-30T23:11:22.990Z</lastModifiedDate_dt>
+</component>
+	</item></sections_o>
 </page>

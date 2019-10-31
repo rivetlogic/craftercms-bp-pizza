@@ -3,7 +3,7 @@
 	<div class="flexslider">
 		<ul class="slides">
         	<#list contentModel.carouselImages_o.item as slider>
-            	<li <@studio.iceAttr iceGroup="visible" path=contentModel.storeUrl />>
+            	<li <@studio.iceAttr iceGroup="visible" component=contentModel />>
                  	 <img src="${slider.sliderImage_s}" alt="image" class="img-carousel">
                   <div class="flex-caption">
                       <h2 class="slider-title">${slider.sliderTitle_t}</h2>

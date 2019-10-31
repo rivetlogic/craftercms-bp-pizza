@@ -1,6 +1,6 @@
 <#import "/templates/system/common/cstudio-support.ftl" as studio />
 <!-- start gallery -->
-	<section id="gallery" class="templatemo-section templatemo-light-gray-bg" <@studio.iceAttr iceGroup="visible" path=contentModel.storeUrl />>
+	<section id="gallery" class="templatemo-section templatemo-light-gray-bg" <@studio.iceAttr iceGroup="visible" component=contentModel />>
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">

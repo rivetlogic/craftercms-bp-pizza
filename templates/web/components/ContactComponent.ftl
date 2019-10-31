@@ -1,6 +1,6 @@
 <#import "/templates/system/common/cstudio-support.ftl" as studio />
 <!-- start contact -->
-	<section id="contact" class="templatemo-section" <@studio.iceAttr iceGroup="visible" path=contentModel.storeUrl />>
+	<section id="contact" class="templatemo-section" <@studio.iceAttr iceGroup="visible" component=contentModel />>
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
