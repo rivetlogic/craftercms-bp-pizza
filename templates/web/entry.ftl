@@ -46,7 +46,13 @@
             <span class="icon icon-bar"></span>
             <span class="icon icon-bar"></span>
           </button>
-          <a href="/" class="navbar-brand smoothScroll"><strong>${contentModel.siteName_t}</strong></a>
+          <a href="/" class="navbar-brand smoothScroll">
+            <strong>
+              <@studio.span $field="siteName_t">
+                ${contentModel.siteName_t}
+              </@studio.span>
+            </strong>
+          </a>
         </div>
 
         <div class="collapse navbar-collapse">
