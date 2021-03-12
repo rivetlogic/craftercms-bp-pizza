@@ -15,13 +15,13 @@
       class="img-carousel"
     />
     <div class="flex-caption">
-      <@studio.h2 $field="sliderTitle_t" class="slider-title">
+      <@studio.h2 $field="carouselImages_o.sliderTitle_t" $index=index class="slider-title">
         ${slider.sliderTitle_t}
       </@studio.h2>
-      <@studio.h2 $field="sliderSubtitle_t" class="slider-subtitle">
+      <@studio.h2 $field="carouselImages_o.sliderSubtitle_t" $index=index class="slider-subtitle">
         ${slider.sliderSubtitle_t}
       </@studio.h2>
-      <@studio.p $field="sliderDescription_t" class="slider-description">
+      <@studio.p $field="carouselImages_o.sliderDescription_t" $index=index class="slider-description">
         ${slider.sliderDescription_t}
       </@studio.p>
     </div>
