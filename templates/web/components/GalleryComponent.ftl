@@ -1,6 +1,6 @@
 <#import "/templates/system/common/ice.ftl" as studio />
 <!-- start gallery -->
-<@studio.componentRootTag $tag="section" id="gallery" class="templatemo-section templatemo-light-gray-bg">
+<section id="gallery" class="templatemo-section templatemo-light-gray-bg">
   <div class="container">
     <div class="row">
       <div class="col-md-12">
@@ -40,5 +40,5 @@
       </div>
     </@studio.renderRepeatCollection>
   </div>
-</@studio.componentRootTag>
+</section>
 <!-- end gallery_o -->

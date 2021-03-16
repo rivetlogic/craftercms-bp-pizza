@@ -1,6 +1,6 @@
 <#import "/templates/system/common/ice.ftl" as studio />
 <!-- start about -->
-	<@studio.componentRootTag $tag="section" id="about" class="templatemo-section templatemo-top-130">
+	<section id="about" class="templatemo-section templatemo-top-130">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
@@ -26,5 +26,5 @@
 				</div>
 			</div>
 		</div>
-	</@studio.componentRootTag>
+	</section>
 	<!-- end about -->

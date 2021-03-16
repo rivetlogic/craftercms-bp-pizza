@@ -68,7 +68,10 @@
     <!-- end navigation -->
 
     <#list contentModel.sections_o.item as section>
-      <@renderComponent parent=contentModel component=section />
+      <#assign index = section?index />
+      <@studio.tag $field="sections_o" $index=index>
+        <@renderComponent parent=contentModel component=section />
+      </@studio.tag>
     </#list>
 
     <script src="/static-assets/js/jquery.js"></script>

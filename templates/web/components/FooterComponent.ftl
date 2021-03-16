@@ -1,6 +1,6 @@
 <#import "/templates/system/common/ice.ftl" as studio />
 
-<@studio.componentRootTag $tag="footer">
+<footer>
   <div class="container">
     <div class="row">
       <div class="col-md-12">
@@ -18,4 +18,4 @@
       </div>
     </div>
   </div>
-</@studio.componentRootTag>
+</footer>

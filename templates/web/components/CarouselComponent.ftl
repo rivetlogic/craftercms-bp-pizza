@@ -1,7 +1,7 @@
 <#import "/templates/system/common/ice.ftl" as studio />
 <!-- start flexslider -->
 
-<@studio.componentRootTag class="flexslider">
+<div class="flexslider">
   <@studio.renderRepeatCollection
   $field="carouselImages_o"
   $containerAttributes={'class': 'slides'};
@@ -26,5 +26,5 @@
       </@studio.p>
     </div>
   </@studio.renderRepeatCollection>
-</@studio.componentRootTag>
+</div>
 <!-- end flexslider -->
