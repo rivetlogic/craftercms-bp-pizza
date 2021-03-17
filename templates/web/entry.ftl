@@ -67,12 +67,7 @@
     </div>
     <!-- end navigation -->
 
-    <#list contentModel.sections_o.item as section>
-      <#assign index = section?index />
-      <@studio.tag $field="sections_o" $index=index>
-        <@renderComponent parent=contentModel component=section />
-      </@studio.tag>
-    </#list>
+    <@studio.renderComponentCollection $field="sections_o"/>
 
     <script src="/static-assets/js/jquery.js"></script>
     <script src="/static-assets/js/plugins.js"></script>

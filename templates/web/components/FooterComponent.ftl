@@ -8,13 +8,13 @@
           ${contentModel.copyrightNotice_t}
         </@studio.p>
         <hr>
-        <ul class="social-icon">
-          <#list contentModel.social_o.item as icon>
-            <li>
-              <a href="${icon.profileURL_s}" target="_blank" class="fa ${icon.socialOptions_s}"></a>
-            </li>
-          </#list>
-        </ul>
+        <@studio.renderRepeatCollection
+          $field="social_o"
+          $containerAttributes={'class': 'social-icon'};
+          icon, index
+        >
+          <a href="${icon.profileURL_s}" target="_blank" class="fa ${icon.socialOptions_s}"></a>
+        </@studio.renderRepeatCollection>
       </div>
     </div>
   </div>
