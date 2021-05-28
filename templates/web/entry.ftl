@@ -1,4 +1,4 @@
-<#import "/templates/system/common/ice.ftl" as studio />
+<#import "/templates/system/common/crafter.ftl" as crafter />
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -34,9 +34,10 @@
     <link href='//fonts.googleapis.com/css?family=Signika:400,300,600,700' rel='stylesheet' type='text/css'>
     <link href='//fonts.googleapis.com/css?family=Chewy' rel='stylesheet' type='text/css'>
 
+    <@crafter.head/>
   </head>
   <body id="home" data-spy="scroll" data-target=".navbar-collapse">
-
+    <@crafter.body_top/>
     <!-- start navigation -->
     <div class="navbar navbar-default navbar-fixed-top" role="navigation">
       <div class="container">
@@ -48,9 +49,9 @@
           </button>
           <a href="/" class="navbar-brand smoothScroll">
             <strong>
-              <@studio.span $field="siteName_t">
+              <@crafter.span $field="siteName_t">
                 ${contentModel.siteName_t}
-              </@studio.span>
+              </@crafter.span>
             </strong>
           </a>
         </div>
@@ -67,7 +68,7 @@
     </div>
     <!-- end navigation -->
 
-    <@studio.renderComponentCollection $field="sections_o"/>
+    <@crafter.renderComponentCollection $field="sections_o"/>
 
     <script src="/static-assets/js/jquery.js"></script>
     <script src="/static-assets/js/plugins.js"></script>
@@ -78,6 +79,6 @@
     <script src="/static-assets/js/wow.min.js"></script>
     <script src="/static-assets/js/simple-lightbox.min.js"></script>
     <script src="/static-assets/js/custom.js"></script>
-    <@studio.initPageBuilder/>
+    <@crafter.body_bottom/>
   </body>
 </html>

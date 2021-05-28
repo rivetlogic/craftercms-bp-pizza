@@ -1,19 +1,19 @@
-<#import "/templates/system/common/ice.ftl" as studio />
+<#import "/templates/system/common/crafter.ftl" as crafter />
 <!-- start gallery -->
 <section id="gallery" class="templatemo-section templatemo-light-gray-bg">
   <div class="container">
     <div class="row">
       <div class="col-md-12">
-        <@studio.h2 $field="galleryTitle_t" class="text-center text-uppercase">
+        <@crafter.h2 $field="galleryTitle_t" class="text-center text-uppercase">
           ${contentModel.galleryTitle_t}
-        </@studio.h2>
+        </@crafter.h2>
         <hr>
       </div>
     </div>
   </div>
   <div class="container">
 
-    <@studio.renderRepeatCollection
+    <@crafter.renderRepeatCollection
       $field="gallery_o"
       $containerTag="div"
       $containerAttributes={'class': 'gallery'}
@@ -22,7 +22,7 @@
       img, index
     >
       <a href="${img.image_s}" class="big">
-        <@studio.img
+        <@crafter.img
           $field="gallery_o.image_s"
           $index=index
           src=(img.image_s)
@@ -31,14 +31,14 @@
         />
       </a>
       <div class="gallery-des">
-        <@studio.h3 $field="gallery_o.imageTitle_t" $index=index>
+        <@crafter.h3 $field="gallery_o.imageTitle_t" $index=index>
           ${img.imageTitle_t}
-        </@studio.h3>
-        <@studio.h5 $field="gallery_o.imageDesc_t" $index=index>
+        </@crafter.h3>
+        <@crafter.h5 $field="gallery_o.imageDesc_t" $index=index>
           ${img.imageDesc_t}
-        </@studio.h5>
+        </@crafter.h5>
       </div>
-    </@studio.renderRepeatCollection>
+    </@crafter.renderRepeatCollection>
   </div>
 </section>
 <!-- end gallery_o -->
