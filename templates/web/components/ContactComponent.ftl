@@ -1,12 +1,12 @@
-<#import "/templates/system/common/ice.ftl" as studio />
+<#import "/templates/system/common/crafter.ftl" as crafter />
 <!-- start contact -->
 <section id="contact" class="templatemo-section">
   <div class="container">
     <div class="row">
       <div class="col-md-12">
-        <@studio.h2 $field="contactUsPlaceholder_t" class="text-uppercase text-center">
+        <@crafter.h2 $field="contactUsPlaceholder_t" class="text-uppercase text-center">
           ${contentModel.contactUsPlaceholder_t}
-        </@studio.h2>
+        </@crafter.h2>
         <hr>
       </div>
       <div class="col-md-2"></div>
@@ -27,56 +27,56 @@
       </div>
       <div class="col-md-2"></div>
       <div class="col-md-4 col-sm-4">
-        <@studio.h3 $field="locationTitle_t" class="padding-bottom-10 text-uppercase">
+        <@crafter.h3 $field="locationTitle_t" class="padding-bottom-10 text-uppercase">
           ${contentModel.locationTitle_t}
-        </@studio.h3>
+        </@crafter.h3>
         <p>
           <i class="fa fa-map-marker contact-fa"></i>
-          <@studio.span $field="addressInfo_t">
+          <@crafter.span $field="addressInfo_t">
             ${contentModel.addressInfo_t}
-          </@studio.span>
+          </@crafter.span>
         </p>
         <p>
           <i class="fa fa-phone contact-fa"></i>
           <a href="tel:${contentModel.phoneOne_s}" class="contact-link">
-            <@studio.span $field="phoneOne_s">
+            <@crafter.span $field="phoneOne_s">
               ${contentModel.phoneOne_s}
-            </@studio.span>
+            </@crafter.span>
           </a>,
           <a href="tel:${contentModel.phoneTwo_s}" class="contact-link">
-            <@studio.span $field="phoneTwo_s">
+            <@crafter.span $field="phoneTwo_s">
               ${contentModel.phoneTwo_s}
-            </@studio.span>
+            </@crafter.span>
           </a>
         </p>
         <p>
           <i class="fa fa-envelope-o contact-fa"></i>
           <a href="mailto:${contentModel.emailCompany_s}" class="contact-link">
-            <@studio.span $field="emailCompany_s">
+            <@crafter.span $field="emailCompany_s">
               ${contentModel.emailCompany_s}
-            </@studio.span>
+            </@crafter.span>
           </a>
         </p>
       </div>
       <div class="col-md-4 col-sm-4">
-        <@studio.h3 $field="scheduleTitle_t" class="text-uppercase">
+        <@crafter.h3 $field="scheduleTitle_t" class="text-uppercase">
           ${contentModel.scheduleTitle_t}
-        </@studio.h3>
+        </@crafter.h3>
         <p>
           <i class="fa fa-clock-o contact-fa"></i>
-          <@studio.span $field="startHour_s">
+          <@crafter.span $field="startHour_s">
             ${contentModel.startHour_s}
-          </@studio.span>
+          </@crafter.span>
           -
-          <@studio.span $field="finishHour_s">
+          <@crafter.span $field="finishHour_s">
             ${contentModel.finishHour_s}
-          </@studio.span>
+          </@crafter.span>
         </p>
         <p>
           <i class="fa fa-bell-o contact-fa"></i>
-          <@studio.span $field="workdays_t">
+          <@crafter.span $field="workdays_t">
             ${contentModel.workdays_t}
-          </@studio.span>
+          </@crafter.span>
         </p>
         </div>
       <div class="col-md-4 col-sm-4">

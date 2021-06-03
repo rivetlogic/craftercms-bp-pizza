@@ -1,13 +1,13 @@
-<#import "/templates/system/common/ice.ftl" as studio />
+<#import "/templates/system/common/crafter.ftl" as crafter />
 <!-- start flexslider -->
 
 <div class="flexslider">
-  <@studio.renderRepeatCollection
+  <@crafter.renderRepeatCollection
   $field="carouselImages_o"
   $containerAttributes={'class': 'slides'};
   slider, index
   >
-    <@studio.img
+    <@crafter.img
       $field="carouselImages_o.sliderImage_s"
       $index=index
       src=(slider.sliderImage_s)
@@ -15,16 +15,16 @@
       class="img-carousel"
     />
     <div class="flex-caption">
-      <@studio.h2 $field="carouselImages_o.sliderTitle_t" $index=index class="slider-title">
+      <@crafter.h2 $field="carouselImages_o.sliderTitle_t" $index=index class="slider-title">
         ${slider.sliderTitle_t}
-      </@studio.h2>
-      <@studio.h2 $field="carouselImages_o.sliderSubtitle_t" $index=index class="slider-subtitle">
+      </@crafter.h2>
+      <@crafter.h2 $field="carouselImages_o.sliderSubtitle_t" $index=index class="slider-subtitle">
         ${slider.sliderSubtitle_t}
-      </@studio.h2>
-      <@studio.p $field="carouselImages_o.sliderDescription_t" $index=index class="slider-description">
+      </@crafter.h2>
+      <@crafter.p $field="carouselImages_o.sliderDescription_t" $index=index class="slider-description">
         ${slider.sliderDescription_t}
-      </@studio.p>
+      </@crafter.p>
     </div>
-  </@studio.renderRepeatCollection>
+  </@crafter.renderRepeatCollection>
 </div>
 <!-- end flexslider -->
