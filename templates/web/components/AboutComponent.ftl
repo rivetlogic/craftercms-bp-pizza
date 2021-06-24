@@ -12,9 +12,9 @@
 					<@crafter.h3 $field="subtitle_t" class="text-uppercase padding-bottom-10">
 						${contentModel.subtitle_t}
 					</@crafter.h3>
-					<@crafter.tag $field="description_html">
+					<@crafter.div $field="description_html">
 						${contentModel.description_html}
-					</@crafter.tag>
+					</@crafter.div>
 				</div>
 				<div class="col-md-6 col-sm-6">
 					<@crafter.img
