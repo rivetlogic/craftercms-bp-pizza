@@ -2,9 +2,11 @@
 <!-- start flexslider -->
 
 <div class="flexslider">
-  <@crafter.renderRepeatCollection
+  <@crafter.renderRepeatGroup
   $field="carouselImages_o"
-  $containerAttributes={'class': 'slides'};
+  $containerAttributes={'class': 'slides'}
+  $containerTag="ul"
+  $itemTag="li";
   slider, index
   >
     <@crafter.img
@@ -25,6 +27,6 @@
         ${slider.sliderDescription_t}
       </@crafter.p>
     </div>
-  </@crafter.renderRepeatCollection>
+  </@crafter.renderRepeatGroup>
 </div>
 <!-- end flexslider -->

@@ -8,13 +8,15 @@
           ${contentModel.copyrightNotice_t}
         </@crafter.p>
         <hr>
-        <@crafter.renderRepeatCollection
+        <@crafter.renderRepeatGroup
           $field="social_o"
-          $containerAttributes={'class': 'social-icon'};
+          $containerAttributes={'class': 'social-icon'}
+          $containerTag="ul"
+          $itemTag="li";
           icon, index
         >
           <a href="${icon.profileURL_s}" target="_blank" class="fa ${icon.socialOptions_s}"></a>
-        </@crafter.renderRepeatCollection>
+        </@crafter.renderRepeatGroup>
       </div>
     </div>
   </div>
