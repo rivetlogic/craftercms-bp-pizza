@@ -13,7 +13,7 @@
   </div>
   <div class="container">
 
-    <@crafter.renderRepeatCollection
+    <@crafter.renderRepeatGroup
       $field="gallery_o"
       $containerTag="div"
       $containerAttributes={'class': 'gallery'}
@@ -38,7 +38,7 @@
           ${img.imageDesc_t}
         </@crafter.h5>
       </div>
-    </@crafter.renderRepeatCollection>
+    </@crafter.renderRepeatGroup>
   </div>
 </section>
 <!-- end gallery_o -->
