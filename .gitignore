@@ -13,6 +13,8 @@
 *Db.properties
 *Db.script
 
+*.iml
+
 # logs
 /stacktrace.log
 /test/reports
