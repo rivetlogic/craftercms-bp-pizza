@@ -1,2 +1,2 @@
 # craftercms-bp-pizza
-CrafterCMS BluePrint: Pizza
+CrafterCMS Blueprint: Pizzaria
