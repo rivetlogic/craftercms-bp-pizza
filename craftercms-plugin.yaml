@@ -14,7 +14,7 @@ plugin:
   version:
     major: 2
     minor: 0
-    patch: 47
+    patch: 48
   description: |
     Pizza Shop!
   website:
@@ -52,4 +52,3 @@ plugin:
   crafterCmsEditions:
     - community
     - enterprise
-  searchEngine: Elasticsearch
