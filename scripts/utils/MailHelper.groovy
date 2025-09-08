@@ -22,13 +22,8 @@ class MailHelper {
             mailSender.defaultEncoding = "UTF-8"
             mailSender.javaMailProperties = javaMailProperties
 
-        emailFactory = new EmailFactoryImpl()
-        emailFactory.mailSender = mailSender
+        emailFactory = new EmailFactoryImpl(mailSender)
         emailFactory.freeMarkerConfig = freeMarkerConfig
-    }
-
-    def sendEmail(from, to, subject, templateName, templateModel) {
-        emailFactory.getEmail(from, (String[])[ to ], null, null, subject, templateName, templateModel, true).send()
     }
 
     def sendEmail(from, to, subject, message) {
