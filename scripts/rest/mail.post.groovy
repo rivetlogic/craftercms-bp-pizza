@@ -22,7 +22,7 @@ if (!fromEmail) {
 }
 
 //def mailHelper = new MailHelper(siteContext.freeMarkerConfig.configuration);
-//mailHelper.sendEmail(fromEmail, toMails, "${name} contacted you", "\n Subject: ${subject}" ," \n ${message}");
+//mailHelper.sendEmail(fromEmail, toMails, "${name} contacted you", "\n Subject: ${subject} \n ${message}");
 
 println "Processing Contact Us Request with values:"
 println params
@@ -31,7 +31,7 @@ return [success: true];
 //return [cointextSite: contextSite];
 
 def getToMails(contextSite){
-    def toMails = contextSite.get('contactEmails_o/item/email_s');
+    def toMails = contextSite.get('//contactEmails_o/item/email_s');
     if ( toMails in List ) {
         def tempArray = new String[toMails.size()];
         for(ii=0; ii< toMails.size(); ii++){
